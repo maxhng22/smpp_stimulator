@@ -10,6 +10,10 @@ const smppService = require('./services/smppService');
 const logger = require('./utils/logger');
 const app = express();
 
+const JWT_SECRET="your key";
+
+// require('dotenv').config()
+
 app.use(bodyParser.json());
 app.use(cors());
 
@@ -25,12 +29,13 @@ mongoose.connect(process.env.MONGODB_URI|| 'mongodb://127.0.0.1:27017/smpp-clien
 
 // Middleware to authenticate JWT token
 const authenticate = (req, res, next) => {
-    const token = req.header('Authorization');
+    console.log(req.header('Authorization'))
+    const token = "req.header('Authorization')";
     if (!token) {
         return res.status(401).json({ message: 'Access denied' });
     }
     try {
-        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        const decoded = jwt.verify(token.replace('Bearer ', ''), process.env.JWT_SECRET||JWT_SECRET);
         req.user = decoded;
         next();
     } catch (err) {
@@ -44,6 +49,7 @@ app.post('/api/saveconfig', authenticate, configController.saveConfig);
 app.get('/api/getconfig', authenticate, configController.getConfig);
 app.post('/api/send-message', authenticate, messageController.sendMessage);
 app.get('/api/smppConnection', authenticate, messageController.getSMPPConnectionStatus);
+app.post('/api/submit-message', authenticate, messageController.submitMessage);
 
 const PORT = process.env.PORT || 3004;
 app.listen(PORT, () => {

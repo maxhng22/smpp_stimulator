@@ -58,3 +58,21 @@
 2024-06-11T01:45:29.736Z [INFO] Connected to MongoDB
 2024-06-11T02:27:00.657Z [INFO] Server is running on port 3004
 2024-06-11T02:27:00.672Z [INFO] Connected to MongoDB
+2024-06-11T06:51:40.218Z [INFO] Server is running on port 3004
+2024-06-11T06:51:40.232Z [INFO] Connected to MongoDBssssss
+2024-06-11T06:54:10.443Z [INFO] Server is running on port 3004
+2024-06-11T06:54:10.459Z [INFO] Connected to MongoDBssssss
+2024-06-11T07:02:07.021Z [INFO] Server is running on port 3004
+2024-06-11T07:02:07.045Z [INFO] Connected to MongoDBssssss
+2024-06-11T07:02:34.289Z [INFO] Server is running on port 3004
+2024-06-11T07:03:04.294Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED ::1:27017
+2024-06-11T07:03:16.393Z [INFO] Server is running on port 3004
+2024-06-11T07:03:16.411Z [INFO] Connected to MongoDBssssss
+2024-06-11T07:23:32.499Z [INFO] Server is running on port 3004
+2024-06-11T07:23:32.524Z [INFO] Connected to MongoDBssssss
+2024-06-11T07:26:46.936Z [INFO] Server is running on port 3004
+2024-06-11T07:27:16.937Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED ::1:27017
+2024-06-11T07:28:39.501Z [INFO] Server is running on port 3004
+2024-06-11T07:28:39.527Z [INFO] Connected to MongoDBssssss
+2024-06-11T07:31:57.975Z [INFO] Server is running on port 3004
+2024-06-11T07:31:58.004Z [INFO] Connected to MongoDBssssss

@@ -18,13 +18,53 @@ const sendMessage = (req, res) => {
 };
 
 const getSMPPConnectionStatus = (req, res) => {
-    // Your logic to get SMPP connection status
-    const status = smppService.getConnectionStatus(); // Example
-
+    // Implementation for getting SMPP connection status
+    const status = smppService.getConnectionStatus();
     res.status(200).json({ status });
+};
+
+// New submitMessage function
+const submitMessage = (req, res) => {
+    const {
+        serviceType,
+        esmClass,
+        protocolId,
+        priorityFlag,
+        dataCoding,
+        sourceAddress,
+        destinationAddress,
+        registeredDelivery,
+        message
+    } = req.body;
+
+    // Validate input
+    if (!sourceAddress || !destinationAddress || !message) {
+        logger.error('Failed to submit message: Invalid input');
+        return res.status(400).json({ error: 'Invalid input. "sourceAddress", "destinationAddress", and "message" are required.' });
+    }
+
+    // Process the message submission
+    try {
+        smppService.submitSms({
+            serviceType,
+            esmClass,
+            protocolId,
+            priorityFlag,
+            dataCoding,
+            sourceAddress,
+            destinationAddress,
+            registeredDelivery,
+            message
+        });
+        res.status(200).json({ success: true });
+    } catch (error) {
+        logger.error('Failed to submit message', error);
+        res.status(500).json({ error: 'Failed to submit message' });
+    }
 };
 
 module.exports = {
     sendMessage,
-    getSMPPConnectionStatus
+    getSMPPConnectionStatus,
+    submitMessage // Export the new submitMessage function
 };
