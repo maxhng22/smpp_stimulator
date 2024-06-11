@@ -1,0 +1,8 @@
+{
+    "host": "localhost",
+    "port": 2775,
+    "system_id": "test",
+    "password": "password",
+    "message_interval_ms": 1000,
+    "messages_file": "messages.json"
+}

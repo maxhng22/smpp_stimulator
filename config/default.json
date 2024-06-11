@@ -1,0 +1,15 @@
+{
+    "smpp": {
+      "host": "localhost",
+      "port": 2775,
+      "system_id": "test",
+      "password": "password"
+    },
+    "server": {
+      "port": 3004
+    },
+    "logging": {
+      "level": "info",
+      "file": "logs/smpp-client.log"
+    }
+  }

@@ -1,0 +1,58 @@
+2024-06-07T02:19:35.733Z [INFO] Server is running on port 3004
+2024-06-07T02:19:35.740Z [ERROR] SMPP session error: Error: connect ECONNREFUSED ::1:2775
+2024-06-07T02:19:55.961Z [INFO] Server is running on port 3004
+2024-06-07T02:19:55.968Z [ERROR] SMPP session error: Error: connect ECONNREFUSED ::1:2775
+2024-06-07T02:20:02.806Z [INFO] Server is running on port 3004
+2024-06-07T02:20:02.813Z [ERROR] SMPP session error: Error: connect ECONNREFUSED ::1:2775
+2024-06-07T02:20:08.999Z [INFO] Server is running on port 3005
+2024-06-07T02:20:09.008Z [ERROR] SMPP session error: Error: connect ECONNREFUSED ::1:2775
+2024-06-07T02:21:37.555Z [INFO] Server is running on port 3004
+2024-06-07T02:21:37.563Z [ERROR] SMPP session error: Error: connect ECONNREFUSED ::1:2775
+2024-06-07T02:23:24.364Z [INFO] Server is running on port 3004
+2024-06-07T02:23:24.371Z [ERROR] SMPP session error: Error: connect ECONNREFUSED ::1:2775
+2024-06-07T02:23:24.371Z [INFO] SMPP session closed
+2024-06-07T02:24:35.613Z [INFO] Server is running on port 3004
+2024-06-07T02:24:35.626Z [ERROR] SMPP session error: Error: connect ECONNREFUSED ::1:2775
+2024-06-07T02:24:35.627Z [INFO] SMPP session closed
+2024-06-07T02:25:46.624Z [INFO] Server is running on port 3004
+2024-06-07T02:25:46.632Z [ERROR] SMPP session error: Error: connect ECONNREFUSED ::1:2775
+2024-06-07T02:25:46.633Z [INFO] SMPP session closed
+2024-06-07T02:26:04.867Z [INFO] Server is running on port 3004
+2024-06-07T02:26:04.875Z [INFO] Connected to SMPP server
+2024-06-07T02:26:04.881Z [INFO] Successfully bound to the SMPP server
+2024-06-07T02:26:51.293Z [INFO] Message successfully sent to qwe: QEW (Status: Sent)
+2024-06-07T02:38:27.390Z [INFO] Server is running on port 3004
+2024-06-07T02:38:27.399Z [ERROR] SMPP session error: Error: connect ECONNREFUSED ::1:2775
+2024-06-07T02:38:27.400Z [INFO] SMPP session closed
+2024-06-07T02:38:41.496Z [INFO] Server is running on port 3004
+2024-06-07T02:38:41.503Z [INFO] Connected to SMPP server
+2024-06-07T02:38:41.509Z [INFO] Successfully bound to the SMPP server
+2024-06-10T03:56:45.593Z [INFO] Server is running on port 3004
+2024-06-10T03:56:45.597Z [ERROR] Failed to connect to MongoDB The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2024-06-10T03:57:00.956Z [INFO] Server is running on port 3004
+2024-06-10T03:57:00.959Z [ERROR] Failed to connect to MongoDB The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2024-06-10T03:58:35.832Z [INFO] Server is running on port 3004
+2024-06-10T03:58:35.836Z [ERROR] Failed to connect to MongoDB The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2024-06-10T03:59:11.463Z [INFO] Server is running on port 3004
+2024-06-10T03:59:11.466Z [ERROR] Failed to connect to MongoDB The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2024-06-10T03:59:25.341Z [INFO] Server is running on port 3004
+2024-06-10T03:59:25.344Z [ERROR] Failed to connect to MongoDB The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2024-06-10T04:00:58.223Z [INFO] Server is running on port 3004
+2024-06-10T04:00:58.226Z [ERROR] Failed to connect to MongoDB The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2024-06-10T04:03:34.280Z [INFO] Server is running on port 3004
+2024-06-10T04:03:34.283Z [ERROR] Failed to connect to MongoDB The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2024-06-10T04:06:20.885Z [INFO] Server is running on port 3004
+2024-06-10T04:06:41.744Z [INFO] Server is running on port 3004
+2024-06-10T04:07:11.745Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED ::1:27017
+2024-06-10T04:18:20.705Z [INFO] Server is running on port 3004
+2024-06-10T04:18:50.711Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED ::1:27017
+2024-06-10T04:19:30.500Z [INFO] Server is running on port 3004
+2024-06-10T04:20:00.502Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED ::1:27017
+2024-06-10T04:20:14.560Z [INFO] Server is running on port 3004
+2024-06-10T04:20:44.558Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED 192.168.100.21:27017
+2024-06-10T04:20:55.374Z [INFO] Server is running on port 3004
+2024-06-10T04:20:55.397Z [INFO] Connected to MongoDB
+2024-06-11T01:31:08.923Z [INFO] Server is running on port 3004
+2024-06-11T01:31:08.944Z [INFO] Connected to MongoDB
+2024-06-11T01:45:29.720Z [INFO] Server is running on port 3004
+2024-06-11T01:45:29.736Z [INFO] Connected to MongoDB

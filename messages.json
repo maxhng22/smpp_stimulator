@@ -1,0 +1,8 @@
+[
+    { "source_addr": "1234", "destination_addr": "5678", "short_message": "Message 1", "encoding": "ascii" },
+    { "source_addr": "1234", "destination_addr": "5678", "short_message": "Message 2", "encoding": "ascii" },
+    { "source_addr": "1234", "destination_addr": "5678", "short_message": "Message 3", "encoding": "ascii" },
+    { "source_addr": "1234", "destination_addr": "5678", "short_message": "Message 4", "encoding": "ascii" },
+    { "source_addr": "1234", "destination_addr": "5678", "short_message": "Message 5", "encoding": "ascii" }
+ 
+]
