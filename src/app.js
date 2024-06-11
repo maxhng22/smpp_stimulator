@@ -18,7 +18,7 @@ mongoose.connect(process.env.MONGODB_URI|| 'mongodb://127.0.0.1:27017/smpp-clien
     // useNewUrlParser: true,
     // useUnifiedTopology: true
 }).then(() => {
-    logger.info('Connected to MongoDB');
+    logger.info('Connected to MongoDBs');
 }).catch((err) => {
     logger.error('Failed to connect to MongoDB', err);
 });
