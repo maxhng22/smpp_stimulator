@@ -9,6 +9,7 @@ const configController = require('./controllers/configController');
 const smppService = require('./services/smppService');
 const logger = require('./utils/logger');
 const app = express();
+require('dotenv').config();
 
 const JWT_SECRET="your key";
 
@@ -18,6 +19,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Connect to MongoDB
+
 mongoose.connect(process.env.MONGODB_URI|| 'mongodb://127.0.0.1:27017/smpp-client', {
     // useNewUrlParser: true,
     // useUnifiedTopology: true
