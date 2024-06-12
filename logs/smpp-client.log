@@ -76,3 +76,21 @@
 2024-06-11T07:28:39.527Z [INFO] Connected to MongoDBssssss
 2024-06-11T07:31:57.975Z [INFO] Server is running on port 3004
 2024-06-11T07:31:58.004Z [INFO] Connected to MongoDBssssss
+2024-06-11T07:33:00.548Z [INFO] Server is running on port 3004
+2024-06-11T07:33:00.594Z [INFO] Connected to MongoDBssssss
+2024-06-11T08:07:01.675Z [INFO] Server is running on port 3004
+2024-06-11T08:07:01.731Z [INFO] Connected to MongoDBssssss
+2024-06-11T08:07:04.320Z [ERROR] Failed to submit message smppClient is not defined
+2024-06-11T08:08:07.683Z [ERROR] Failed to submit message smppClient is not defined
+2024-06-11T08:11:11.531Z [INFO] Server is running on port 3004
+2024-06-11T08:11:11.558Z [INFO] Connected to MongoDBssssss
+2024-06-11T08:13:46.642Z [INFO] Server is running on port 3004
+2024-06-11T08:13:46.667Z [INFO] Connected to MongoDBssssss
+2024-06-11T08:13:53.203Z [ERROR] Failed to submit message SMPP client is not initialized
+2024-06-11T08:14:01.030Z [ERROR] Failed to submit message SMPP client is not initialized
+2024-06-11T08:18:08.804Z [INFO] Server is running on port 3004
+2024-06-11T08:18:08.828Z [INFO] Connected to MongoDBssssss
+2024-06-11T09:27:15.895Z [INFO] Server is running on port 3004
+2024-06-11T09:27:15.918Z [INFO] Connected to MongoDBssssss
+2024-06-11T09:27:37.601Z [INFO] Server is running on port 3004
+2024-06-11T09:27:37.624Z [INFO] Connected to MongoDBssssss
