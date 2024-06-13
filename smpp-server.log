@@ -133,3 +133,8 @@
 2024-06-07T02:38:41.507Z [INFO] Client authenticated successfully
 2024-06-10T03:54:58.137Z [INFO] SMPP server is listening on port 2775
 2024-06-11T08:08:03.421Z [INFO] SMPP server is listening on port 2775
+2024-06-13T02:22:14.322Z [INFO] SMPP server is listening on port 2775
+2024-06-13T02:33:08.485Z [ERROR] Failed to start SMPP server: TypeError: Cannot read properties of undefined (reading 'startsWith')
+2024-06-13T02:35:27.010Z [ERROR] Failed to start SMPP server: TypeError: (intermediate value).ObjectID is not a function
+2024-06-13T02:35:48.611Z [ERROR] Failed to start SMPP server: TypeError: (intermediate value).ObjectID is not a function
+2024-06-13T02:38:03.330Z [INFO] SMPP server is listening on 127.0.0.1:2775
