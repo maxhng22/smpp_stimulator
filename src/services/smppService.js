@@ -5,52 +5,63 @@ const logger = require('../utils/logger'); // Assuming logger is defined in your
 let smppClient; // Declare smppClient globally
 
 // Connect to the SMPP server and initialize the session
-exports.connect = async (userId) => {
-    try {
-        const config = await Config.findOne(); // Fetch the SMPP configuration
-        if (!config) {
-            throw new Error('No SMPP configuration found');
-        }
-
-        smppClient = new smpp.Session({
-            host: config.host,
-            port: config.port,
-            tls: config.tls
-        });
-
-        smppClient.on('connect', () => {
-            logger.info('Connected to SMPP server');
-            smppClient.bind_transceiver({
-                system_id: config.system_id,
-                password: config.password,
-                system_type: config.system_type,
-                interface_version: config.version === '3.4' ? 0x34 : 0x33 // Example for version mapping
-            }, (pdu) => {
-                if (pdu.command_status === 0) {
-                    logger.info('Successfully bound to the SMPP server');
-                } else {
-                    logger.error(`Failed to bind to SMPP server: ${pdu.command_status}`);
-                }
+exports.connect = async (host, port, systemId, password, systemType, version, mode) => {
+    return new Promise((resolve, reject) => {
+        try {
+            smppClient = new smpp.Session({
+                host: host,
+                port: port,
+                // tls: config.tls
             });
-        });
 
-        smppClient.on('error', (error) => {
-            logger.error(`SMPP session error: ${error}`);
-        });
+            smppClient.on('connect', () => {
+                logger.info('Connected to SMPP server');
 
-        smppClient.on('close', () => {
-            logger.info('SMPP session closed');
-        });
+                // Determine bind mode
+                let bindParams = {
+                    system_id: systemId,
+                    password: password,
+                    system_type: systemType || '',
+                    interface_version: version === '3.4' ? 0x34 : 0x33
+                };
 
-        return smppClient;
-    } catch (error) {
-        logger.error(`Failed to connect to SMPP server: ${error.message}`);
-        throw error;
-    }
+                let bindFunction;
+                if (mode === 'txonly') {
+                    bindFunction = smppClient.bind_transmitter.bind(smppClient);
+                } else if (mode === 'rxonly') {
+                    bindFunction = smppClient.bind_receiver.bind(smppClient);
+                } else {
+                    bindFunction = smppClient.bind_transceiver.bind(smppClient);
+                }
+
+                bindFunction(bindParams, (pdu) => {
+                    logger.info('Successfully bound to the SMPP server rx now');
+                    if (pdu.command_status === 0) {
+                        logger.info('Successfully bound to the SMPP server');
+                        resolve(smppClient); // Resolve the promise with the client
+                    } else {
+                        logger.error(`Failed to bind to SMPP server: ${pdu.command_status}`);
+                        reject(new Error(`Failed to bind to SMPP server: ${pdu.command_status}`)); // Reject the promise with an error
+                    }
+                });
+            });
+
+            smppClient.on('error', (error) => {
+                logger.error(`SMPP session error: ${error}`);
+                reject(error); // Reject the promise with the error
+            });
+
+            smppClient.on('close', () => {
+                logger.info('SMPP session closed');
+            });
+        } catch (error) {
+            logger.error(`Failed to connect to SMPP server: ${error.message}`);
+            reject(error); // Reject the promise with the error
+        }
+    });
 };
-
 // Send SMS using the established SMPP session
-exports.sendSms = (userId, from, to, message) => {
+exports.sendSms = ( from, to, message) => {
     if (!smppClient) {
         throw new Error('No active SMPP session');
     }

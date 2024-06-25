@@ -1,20 +1,132 @@
 const smppService = require('../services/smppService');
 const logger = require('../utils/logger');
+const smpp = require('smpp');
 
+// let smppSession=null
+const connectSMPP = async (req, res) => {
+    const { host, port, systemId, password, systemType, version } = req.body;
+    // Validate input
+    if (!host || !port || !systemId || !password) {
+        return res.status(400).json({ error: 'Invalid input. "host", "port", "systemId", and "password" are required.' });
+    }
+    try {
+        smppSession = await smppService.connect(host, port, systemId, password, systemType, version,)
+        res.status(200).json({ success: true, message: 'Connected and bound to SMPP server' });
+    } catch (e) {
+
+        res.status(500).json({ error: 'Failed to bind SMPP session', status: e })
+        smppSession = null;
+    }
+    ;
+
+    // smppSession.on('connect', () => {
+    //     smppSession.bind_transceiver({
+    //         system_id: systemId,
+    //         password: password,
+    //         system_type: systemType || '',
+    //         interface_version: version || smpp.constants.VERSION_3_4
+    //     }, (pdu) => {
+    //         if (pdu.command_status === 0) {
+    //             res.status(200).json({ success: true, message: 'Connected and bound to SMPP server' });
+    //         } else {
+    //             res.status(500).json({ error: 'Failed to bind SMPP session', status: pdu.command_status });
+    //             smppSession.close();
+    //             smppSession = null;
+    //         }
+    //     });
+    // });
+
+    // smppSession.on('close', () => {
+    //     console.log('SMPP session closed');
+    //     smppSession = null;
+    // });
+
+    // smppSession.on('error', (error) => {
+    //     console.error('SMPP session error:', error);
+    //     smppSession.close();
+    //     smppSession = null;
+    //     res.status(500).json({ error: 'SMPP session error', details: error });
+    // });
+
+};
+const rxonlysmpp = async (req, res) => {
+    const { host, port, systemId, password, systemType, version } = req.body;
+    // Validate input
+    if (!host || !port || !systemId || !password) {
+        return res.status(400).json({ error: 'Invalid input. "host", "port", "systemId", and "password" are required.' });
+    }
+    try {
+        smppSession = await smppService.connect(host, port, systemId, password, systemType, version,"rxonly")
+        res.status(200).json({ success: true, message: 'Connected and bound to SMPP server' });
+    } catch (e) {
+
+        res.status(500).json({ error: 'Failed to bind SMPP session', status: e })
+        smppSession = null;
+    }
+    ;
+}
+
+const txonlysmpp = async (req, res) => {
+    const { host, port, systemId, password, systemType, version } = req.body;
+    // Validate input
+    if (!host || !port || !systemId || !password) {
+        return res.status(400).json({ error: 'Invalid input. "host", "port", "systemId", and "password" are required.' });
+    }
+    try {
+        smppSession = await smppService.connect(host, port, systemId, password, systemType, version,"txonly")
+        res.status(200).json({ success: true, message: 'Connected and bound to SMPP server' });
+    } catch (e) {
+
+        res.status(500).json({ error: 'Failed to bind SMPP session', status: e })
+        smppSession = null;
+    }
+    ;
+}
+
+const disconnectSMPP = (req, res) => {
+    if (smppSession) {
+        smppSession.unbind();
+        smppSession = null;
+        res.status(200).json({ success: true, message: 'Disconnected from SMPP server' });
+    } else {
+        res.status(400).json({ error: 'No active SMPP session to disconnect' });
+    }
+};
+// source, destination,message ,registerDevivery
 const sendMessage = (req, res) => {
-    const { to, message } = req.body;
-    const sysid = req.query.sysid || 'default_sysid';
+    const { source, destination, message, registerDelivery } = req.body;
+    // const sysid = req.query.sysid || 'default_sysid';
 
     // Validate input
-    if (!to || !message) {
+    if (!source || !destination || !message) {
         logger.error('Failed to send message: Invalid input');
-        return res.status(400).json({ error: 'Invalid input. "to" and "message" are required.' });
+        return res.status(400).json({ error: 'Invalid input. "source", "destination", and "message" are required.' });
     }
 
-    // Apply pre-translation rule and send message
-    smppService.sendSms(sysid, to, message);
+    // Ensure registerDelivery is either 0 or 1
+    const validRegisterDelivery = registerDelivery === '1' || registerDelivery === 1 ? 1 : 0;
 
-    res.status(200).json({ success: true });
+    // Apply pre-translation rule and send message
+    try {
+        smppSession.submit_sm({
+            source_addr: source,
+            destination_addr: destination,
+            short_message: message
+        }, (pdu) => {
+            if (pdu.command_status === 0) {
+                logger.info('Message successfully sent');
+                res.status(200).json({ success: true });
+            } else {
+                logger.error('Failed to send message:', pdu.command_status);
+                throw (new Error('Failed to send message'));
+            }
+        });
+    } catch (e) {
+        res.status(500).json({ error: 'Failed to send message', status: e })
+    }
+
+
+    // res.status(200).json({ success: true });
 };
 
 const getSMPPConnectionStatus = (req, res) => {
@@ -64,6 +176,10 @@ const submitMessage = (req, res) => {
 };
 
 module.exports = {
+    rxonlysmpp,
+    txonlysmpp,
+    disconnectSMPP,
+    connectSMPP,
     sendMessage,
     getSMPPConnectionStatus,
     submitMessage // Export the new submitMessage function

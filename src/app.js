@@ -56,10 +56,16 @@ app.post("/api/register", userController.register);
 app.post("/api/login", userController.login);
 app.post("/api/saveconfig", authenticate, configController.saveConfig);
 app.get("/api/getconfig", authenticate, configController.getConfig);
-app.post("/api/send-message", authenticate, messageController.sendMessage);
+
+
+app.post("/api/send-message", messageController.sendMessage);
+app.post("/api/connectsmpp", messageController.connectSMPP);
+app.post("/api/disconnectsmpp", messageController.disconnectSMPP);
+app.post("/api/txonlysmpp", messageController.txonlysmpp);
+app.post("/api/rxonlysmpp", messageController.rxonlysmpp);
+
 app.get(
   "/api/smppConnection",
-  authenticate,
   messageController.getSMPPConnectionStatus
 );
 app.post("/api/submit-message", authenticate, messageController.submitMessage);
