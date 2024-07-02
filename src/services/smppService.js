@@ -1,4 +1,5 @@
 const smpp = require('smpp');
+const { performance } = require('perf_hooks');
 const Config = require('../models/config'); // Assuming a Config model is defined
 const logger = require('../utils/logger'); // Assuming logger is defined in your project
 
@@ -83,6 +84,9 @@ exports.sendSms = ( from, to, message) => {
     });
 };
 
+
+
+
 // Get connection status
 exports.getConnectionStatus = () => {
     // Implementation for getting SMPP connection status
@@ -116,5 +120,80 @@ exports.submitSms = ({ serviceType, esmClass, protocolId, priorityFlag, dataCodi
         });
     });
 };
+
+exports.loadTest = async (host, port, systemId, password, systemType, version, numMessages,messageRate) => {
+    return new Promise((resolve, reject) => {
+        const smppClient = new smpp.Session({
+            host: host,
+            port: port,
+        });
+
+        let totalLatency = 0;
+        let successfulSubmissions = 0;
+        const latencyArray = [];
+
+        smppClient.on('connect', () => {
+            logger.info('Connected to SMPP server');
+
+            smppClient.bind_transceiver({
+                system_id: systemId,
+                password: password,
+                system_type: systemType,
+                interface_version: version === '3.4' ? 0x34 : 0x33
+            }, (pdu) => {
+                if (pdu.command_status === 0) {
+                    logger.info('Successfully bound to the SMPP server');
+                    startSendingMessages();
+                } else {
+                    logger.error(`Failed to bind to SMPP server: ${pdu.command_status}`);
+                    smppClient.close();
+                    reject(new Error(`Failed to bind to SMPP server: ${pdu.command_status}`));
+                }
+            });
+        });
+
+        smppClient.on('error', (error) => {
+            logger.error(`SMPP session error: ${error}`);
+            reject(error);
+        });
+
+        function startSendingMessages() {
+          
+            let messagesSent = 0;
+
+            const sendMessage = () => {
+                if (messagesSent >= 1000) {
+                    smppClient.unbind();
+                    resolve({ totalLatency, successfulSubmissions, latencyArray });
+                    return;
+                }
+
+                const startTime = performance.now();
+
+                smppClient.submit_sm({
+                    source_addr: '1234',
+                    destination_addr: '5678',
+                    short_message: 'Hello, this is a load test message!'
+                }, (pdu) => {
+                    const endTime = performance.now();
+                    const latency = endTime - startTime;
+                    totalLatency += latency;
+                    latencyArray.push(latency);
+
+                    if (pdu.command_status === 0) {
+                        successfulSubmissions++;
+                    } else {
+                        logger.warn(`Message submission failed: ${pdu.command_status}`);
+                    }
+
+                    messagesSent++;
+                    setTimeout(sendMessage, 1000 / 10000);
+                });
+            };
+
+            sendMessage();
+        }
+    });
+}
 
 

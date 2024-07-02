@@ -129,6 +129,25 @@ const sendMessage = (req, res) => {
     // res.status(200).json({ success: true });
 };
 
+const loadTestSMPP = async (req, res) => {
+    const { host, port, systemId, password, systemType, version } = req.body;
+    // Validate input
+    if (!host || !port || !systemId || !password) {
+        return res.status(400).json({ error: 'Invalid input. "host", "port", "systemId", and "password" are required.' });
+    }
+    try {
+        smppSession = await smppService.loadTest(host, port, systemId, password, systemType, version)
+        console.log("success now")
+        res.status(200).json({ success: true, message: smppSession });
+    } catch (e) {
+
+        res.status(500).json({ error: 'Failed to bind SMPP session', status: e })
+        smppSession = null;
+    }
+    
+    // res.status(200).json({ success: true });
+};
+
 const getSMPPConnectionStatus = (req, res) => {
     // Implementation for getting SMPP connection status
     const status = smppService.getConnectionStatus();
@@ -176,6 +195,7 @@ const submitMessage = (req, res) => {
 };
 
 module.exports = {
+    loadTestSMPP,
     rxonlysmpp,
     txonlysmpp,
     disconnectSMPP,

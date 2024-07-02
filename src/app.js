@@ -63,6 +63,8 @@ app.post("/api/connectsmpp", messageController.connectSMPP);
 app.post("/api/disconnectsmpp", messageController.disconnectSMPP);
 app.post("/api/txonlysmpp", messageController.txonlysmpp);
 app.post("/api/rxonlysmpp", messageController.rxonlysmpp);
+app.post("/api/loadtest", messageController.loadTestSMPP);
+
 
 app.get(
   "/api/smppConnection",
