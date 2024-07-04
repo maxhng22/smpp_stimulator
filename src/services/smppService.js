@@ -2,13 +2,20 @@ const smpp = require('smpp');
 const { performance } = require('perf_hooks');
 const Config = require('../models/config'); // Assuming a Config model is defined
 const logger = require('../utils/logger'); // Assuming logger is defined in your project
+const { version } = require('os');
 
 let smppClient; // Declare smppClient globally
-
+let connectionStatus = 'disconnected';
+let nameSMPP = 'localhost';
+let system=""
+let smppversion=""
 // Connect to the SMPP server and initialize the session
 exports.connect = async (host, port, systemId, password, systemType, version, mode) => {
     return new Promise((resolve, reject) => {
         try {
+            nameSMPP=host+":"+port
+            system=systemId
+            smppversion=version
             smppClient = new smpp.Session({
                 host: host,
                 port: port,
@@ -17,7 +24,7 @@ exports.connect = async (host, port, systemId, password, systemType, version, mo
 
             smppClient.on('connect', () => {
                 logger.info('Connected to SMPP server');
-
+               
                 // Determine bind mode
                 let bindParams = {
                     system_id: systemId,
@@ -38,9 +45,12 @@ exports.connect = async (host, port, systemId, password, systemType, version, mo
                 bindFunction(bindParams, (pdu) => {
                     logger.info('Successfully bound to the SMPP server rx now');
                     if (pdu.command_status === 0) {
+                        connectionStatus = 'connected';
                         logger.info('Successfully bound to the SMPP server');
                         resolve(smppClient); // Resolve the promise with the client
                     } else {
+                        connectionStatus = 'error';
+                        
                         logger.error(`Failed to bind to SMPP server: ${pdu.command_status}`);
                         reject(new Error(`Failed to bind to SMPP server: ${pdu.command_status}`)); // Reject the promise with an error
                     }
@@ -49,13 +59,16 @@ exports.connect = async (host, port, systemId, password, systemType, version, mo
 
             smppClient.on('error', (error) => {
                 logger.error(`SMPP session error: ${error}`);
+                connectionStatus = 'error';
                 reject(error); // Reject the promise with the error
             });
 
             smppClient.on('close', () => {
+                connectionStatus = 'disconnected';
                 logger.info('SMPP session closed');
             });
         } catch (error) {
+            connectionStatus = 'failed_to_connect';
             logger.error(`Failed to connect to SMPP server: ${error.message}`);
             reject(error); // Reject the promise with the error
         }
@@ -89,7 +102,7 @@ exports.sendSms = ( from, to, message) => {
 
 // Get connection status
 exports.getConnectionStatus = () => {
-    // Implementation for getting SMPP connection status
+    return {"status":connectionStatus,"name":nameSMPP,"systemId":system,"version":smppversion};
 };
 
 // Submit SMS with specified parameters
@@ -121,7 +134,7 @@ exports.submitSms = ({ serviceType, esmClass, protocolId, priorityFlag, dataCodi
     });
 };
 
-exports.loadTest = async (host, port, systemId, password, systemType, version, numMessages,messageRate) => {
+exports.loadTest = async (host, port, systemId, password, systemType, version,source, destination,message, numMessages,tps,binds,submitWindow) => {
     return new Promise((resolve, reject) => {
         const smppClient = new smpp.Session({
             host: host,
