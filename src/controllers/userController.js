@@ -37,6 +37,7 @@ exports.register = async (req, res) => {
 exports.login = async (req, res) => {
     const { username, password } = req.body;
 
+    console.log("get request")
     // Input validation
     if (!username || !password) {
         return res.status(400).json({ message: 'Username and password are required' });
@@ -50,7 +51,7 @@ exports.login = async (req, res) => {
         }
 
         // Generate a JWT token
-        const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET , { expiresIn: '1h' });
+        const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET , { expiresIn: '10h' });
 
         res.status(200).json({ token });
     } catch (error) {

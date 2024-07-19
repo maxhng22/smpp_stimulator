@@ -3,13 +3,13 @@ const logger = require('../utils/logger');
 const smpp = require('smpp');
 const Log = require('../models/log');
 
-// let smppSession=null
+let smppSession = null
 const connectSMPP = async (req, res) => {
     const { host, port, systemId, password, systemType, version } = req.body;
     // Validate input
-    if (!host || !port || !systemId || !password) {
-        return res.status(400).json({ error: 'Invalid input. "host", "port", "systemId", and "password" are required.' });
-    }
+    // if (!host || !port || !systemId || !password) {
+    //     return res.status(400).json({ error: 'Invalid input. "host", "port", "systemId", and "password" are required.' });
+    // }
     try {
         smppSession = await smppService.connect(host, port, systemId, password, systemType, version,)
         res.status(200).json({ success: true, message: 'Connected and bound to SMPP server' });
@@ -86,17 +86,32 @@ const txonlysmpp = async (req, res) => {
 
 const disconnectSMPP = (req, res) => {
     if (smppSession) {
-        smppSession.unbind();
-        smppSession = null;
-        res.status(200).json({ success: true, message: 'Disconnected from SMPP server' });
+        try {
+            smppSession.unbind((unbindPdu) => {
+                if (unbindPdu.command_status === 0) {
+                    console.log('Successfully unbound from SMPP server');
+                } else {
+                    console.error('Failed to unbind from SMPP server:', unbindPdu.command_status);
+                }
+
+                // Close the session
+                smppSession.close();
+                smppSession = null; // Clear the session after closing it
+
+                // Send the HTTP response after the session is closed
+                res.status(200).json({ success: true, message: 'Disconnected from SMPP server' });
+            });
+        } catch (e) {
+            
+            res.status(200).json({ success: true, message: 'Disconnected from SMPP server' });
+        }
     } else {
         res.status(400).json({ error: 'No active SMPP session to disconnect' });
     }
 };
 // source, destination,message ,registerDevivery
-const sendMessage = (req, res) => {
+const sendMessage = async (req, res) => {
     const { source, destination, message, registerDelivery } = req.body;
-    // const sysid = req.query.sysid || 'default_sysid';
 
     // Validate input
     if (!source || !destination || !message) {
@@ -107,47 +122,42 @@ const sendMessage = (req, res) => {
     // Ensure registerDelivery is either 0 or 1
     const validRegisterDelivery = registerDelivery === '1' || registerDelivery === 1 ? 1 : 0;
 
-    // Apply pre-translation rule and send message
     try {
-        smppSession.submit_sm({
-            source_addr: source,
-            destination_addr: destination,
-            short_message: message
-        }, (pdu) => {
-            if (pdu.command_status === 0) {
-               const log= new Log({ source_address: source, destination_address: destination, message: message, status: "success" });
-               log.save()
-                logger.info('Message successfully sent');
-                res.status(200).json({ success: true });
-            } else {
-                const log=  new Log({ source_address: source, destination_address: destination, message: message, status: "failed" });
-                log.save()
-                logger.error('Failed to send message:', pdu.command_status);
-                throw (new Error('Failed to send message'));
-            }
-        });
-    } catch (e) {
-        res.status(500).json({ error: 'Failed to send message', status: e })
+        // Call sendSms from smppService to send the message
+        await smppService.sendSms(source, destination, message);
+
+        // If successful, log and respond
+        const log = new Log({ source_address: source, destination_address: destination, message: message, status: "success" });
+        await log.save();
+        logger.info('Message successfully sent');
+        res.status(200).json({ success: true });
+
+    } catch (error) {
+        // Handle errors
+        const log = new Log({ source_address: source, destination_address: destination, message: message, status: "failed" });
+        await log.save();
+        logger.error('Failed to send message:', error);
+        res.status(500).json({ error: 'Failed to send message', status: error.message });
     }
-
-
-    // res.status(200).json({ success: true });
 };
-
 const loadTestSMPP = async (req, res) => {
     const { host, port, systemId, password, systemType, version, source, destination, message, numMessages, tps, binds, submitWindow } = req.body;
     // Validate input
-    if (!host || !port || !systemId || !password) {
-        return res.status(400).json({ error: 'Invalid input. "host", "port", "systemId", and "password" are required.' });
+    if (!host || !port || !systemId ) {
+        return res.status(400).json({ error: 'Invalid input. "host", "port" and "systemId" are required.' });
     }
 
-    if (!source || !destination || !message || !numMessages) {
-        return res.status(400).json({ error: 'Invalid input. "host", "port", "systemId", and "password" are required.' });
+    if (!source || !destination || !message) {
+        return res.status(400).json({ error: 'Invalid input. "source", "destination", and "message" are required.' });
+    }
+
+    if (!numMessages || !tps || !binds || !submitWindow) {
+        return res.status(400).json({ error: 'Invalid input. "number of Messages", "tps", "binds", and "submitWindow" are required.' });
     }
 
     try {
-        smppSession = await smppService.loadTest(host, port, systemId, password, systemType, version, source, destination, message, numMessages, tps, binds, submitWindow)
-        console.log("success now")
+        smppSession = await smppService.loadTest2(host, port, systemId, password, systemType, version, source, destination, message, numMessages, tps, binds, submitWindow)
+
         res.status(200).json({ success: true, message: smppSession });
     } catch (e) {
 
@@ -180,7 +190,7 @@ const abortLoadTestSMPP = async (req, res) => {
 const getSMPPConnectionStatus = (req, res) => {
     // Implementation for getting SMPP connection status
     const connection = smppService.getConnectionStatus();
-    console.log(connection)
+    // console.log(connection)
     // const status=[{"name":"testing"}]
     res.status(200).json([connection]);
 };

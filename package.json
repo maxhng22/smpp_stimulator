@@ -1,5 +1,12 @@
 {
+  "name": "my-app",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "dependencies": {
+    "@elastic/elasticsearch": "^8.14.0",
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
     "config": "^3.3.11",
@@ -9,6 +16,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.4.1",
     "smpp": "^0.6.0-rc.4",
-    "winston": "^3.13.0"
+    "winston": "^3.13.0",
+    "ws": "^8.18.0"
   }
 }

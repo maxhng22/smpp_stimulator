@@ -70,11 +70,15 @@ async function startSmppServer() {
         // Handle submit_sm (TX)
         session.on('submit_sm', (pdu) => {
             logger.info(`Received submit_sm: From ${pdu.source_addr} To ${pdu.destination_addr} Message ${pdu.short_message.message}`);
-            // Send response
-            session.send(pdu.response({
+          
+            // Introduce delay using setTimeout
+            // setTimeout(() => {
+              // Send response after 1 second delay
+              session.send(pdu.response({
                 message_id: '1'
-            }));
-        });
+              }));
+            // }, 4000); // Delay of 1 second in milliseconds
+          });
 
         // Handle deliver_sm (RX) - Example for receiving
         session.on('deliver_sm', (pdu) => {
@@ -96,7 +100,7 @@ async function startSmppServer() {
         });
     });
 
-    server.listen(4002, "127.0.0.1", () => {
+    server.listen(4002, "0.0.0.0", () => {
         logger.info(`SMPP server is listening on 127.0.0.1:${4002}`);
     });
 }

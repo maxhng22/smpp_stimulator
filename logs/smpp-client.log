@@ -118,3 +118,1556 @@
 2024-06-12T02:15:50.450Z [INFO] Connected to MongoDBssssss
 2024-06-12T02:47:20.346Z [INFO] Server is running on port 3004
 2024-06-12T02:47:20.365Z [INFO] Connected to MongoDBssssss
+2024-06-19T02:25:54.417Z [INFO] Server is running on port 3004
+2024-06-19T02:26:24.418Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED 127.0.0.1:27017
+2024-06-19T02:43:56.432Z [ERROR] Error logging in user Operation `users.findOne()` buffering timed out after 10000ms
+2024-06-19T03:58:11.368Z [INFO] Server is running on port 3004
+2024-06-19T03:58:14.286Z [ERROR] Failed to send message: Invalid input
+2024-06-19T03:58:33.231Z [ERROR] Failed to send message: Invalid input
+2024-06-19T03:58:33.323Z [ERROR] Failed to send message: Invalid input
+2024-06-19T03:58:38.881Z [ERROR] Failed to send message: Invalid input
+2024-06-19T03:58:38.914Z [ERROR] Failed to send message: Invalid input
+2024-06-19T03:58:41.375Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED 127.0.0.1:27017
+2024-06-19T05:51:03.546Z [INFO] Server is running on port 3004
+2024-06-19T05:51:25.540Z [INFO] Server is running on port 3004
+2024-06-19T05:51:29.469Z [ERROR] Failed to send message: Invalid input
+2024-06-19T05:51:55.552Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED 127.0.0.1:27017
+2024-06-19T05:52:22.280Z [INFO] Server is running on port 3004
+2024-06-19T05:52:24.811Z [ERROR] Failed to send message: Invalid input
+2024-06-19T05:52:52.291Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED 127.0.0.1:27017
+2024-06-24T03:17:36.826Z [INFO] Server is running on port 3004
+2024-06-24T03:18:06.828Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED 127.0.0.1:27017
+2024-06-24T03:19:31.016Z [INFO] Server is running on port 3004
+2024-06-24T03:20:01.029Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED 127.0.0.1:27017
+2024-06-24T03:22:55.323Z [INFO] Server is running on port 3004
+2024-06-24T03:23:25.327Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED 127.0.0.1:27017
+2024-06-24T03:26:25.520Z [INFO] Server is running on port 3004
+2024-06-24T03:26:55.526Z [ERROR] Failed to connect to MongoDB connect ECONNREFUSED 127.0.0.1:27017
+2024-06-24T03:30:24.000Z [INFO] Server is running on port 3004
+2024-06-24T03:30:54.011Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-24T09:48:53.419Z [INFO] Server is running on port 3004
+2024-06-24T09:49:23.428Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-24T09:53:02.605Z [INFO] Server is running on port 3004
+2024-06-24T09:53:32.619Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-24T09:53:36.212Z [INFO] Server is running on port 3004
+2024-06-24T09:54:06.209Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-25T01:57:51.868Z [INFO] Server is running on port 3004
+2024-06-25T01:58:21.865Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-25T02:46:39.607Z [ERROR] Failed to send message: Invalid input
+2024-06-25T02:59:20.371Z [INFO] Server is running on port 3004
+2024-06-25T02:59:23.229Z [INFO] Connected to SMPP server
+2024-06-25T02:59:23.234Z [INFO] Successfully bound to the SMPP server
+2024-06-25T02:59:31.736Z [INFO] Connected to SMPP server
+2024-06-25T02:59:31.740Z [INFO] Successfully bound to the SMPP server
+2024-06-25T02:59:41.188Z [INFO] SMPP session closed
+2024-06-25T02:59:45.554Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.2:4002
+2024-06-25T02:59:45.556Z [INFO] SMPP session closed
+2024-06-25T02:59:50.384Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-25T03:00:13.803Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.2:4003
+2024-06-25T03:00:13.805Z [INFO] SMPP session closed
+2024-06-25T03:01:45.321Z [INFO] Server is running on port 3004
+2024-06-25T03:05:16.361Z [INFO] Server is running on port 3004
+2024-06-25T03:05:22.089Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.2:4003
+2024-06-25T03:06:27.387Z [INFO] Server is running on port 3004
+2024-06-25T03:06:29.970Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.2:4003
+2024-06-25T03:06:29.971Z [INFO] SMPP session closed
+2024-06-25T03:06:57.397Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-25T03:07:53.188Z [INFO] Server is running on port 3004
+2024-06-25T03:07:56.634Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.2:4003
+2024-06-25T03:08:44.097Z [INFO] Server is running on port 3004
+2024-06-25T03:08:47.119Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.2:4003
+2024-06-25T03:09:38.562Z [INFO] Server is running on port 3004
+2024-06-25T03:09:40.732Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.2:4003
+2024-06-25T03:10:06.595Z [INFO] Server is running on port 3004
+2024-06-25T03:10:09.105Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.2:4003
+2024-06-25T03:10:52.447Z [INFO] Server is running on port 3004
+2024-06-25T03:10:54.414Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.2:4003
+2024-06-25T03:11:47.307Z [INFO] Server is running on port 3004
+2024-06-25T03:11:49.275Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.2:4003
+2024-06-25T03:11:49.279Z [INFO] SMPP session closed
+2024-06-25T03:11:58.737Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:4003
+2024-06-25T03:11:58.739Z [INFO] SMPP session closed
+2024-06-25T03:12:04.609Z [INFO] Connected to SMPP server
+2024-06-25T03:12:04.617Z [INFO] Successfully bound to the SMPP server
+2024-06-25T03:12:17.318Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-25T03:12:39.150Z [INFO] SMPP session closed
+2024-06-25T03:12:50.897Z [INFO] Connected to SMPP server
+2024-06-25T03:12:50.900Z [INFO] Successfully bound to the SMPP server
+2024-06-25T03:12:57.028Z [INFO] SMPP session closed
+2024-06-25T03:29:39.364Z [INFO] Server is running on port 3004
+2024-06-25T03:30:09.365Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-25T03:30:47.361Z [INFO] Connected to SMPP server
+2024-06-25T03:30:47.367Z [INFO] Successfully bound to the SMPP server
+2024-06-25T03:30:49.658Z [INFO] Message successfully sent
+2024-06-25T03:31:08.481Z [INFO] SMPP session closed
+2024-06-25T07:00:48.232Z [INFO] Server is running on port 3004
+2024-06-25T07:00:52.231Z [INFO] Connected to SMPP server
+2024-06-25T07:00:52.237Z [INFO] Successfully bound to the SMPP server
+2024-06-25T07:00:57.441Z [INFO] Message successfully sent
+2024-06-25T07:01:18.234Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-25T07:13:56.890Z [INFO] SMPP session closed
+2024-06-25T07:14:20.683Z [INFO] Server is running on port 3004
+2024-06-25T07:14:44.835Z [INFO] Server is running on port 3004
+2024-06-25T07:14:46.798Z [INFO] Connected to SMPP server
+2024-06-25T07:15:01.211Z [INFO] Connected to SMPP server
+2024-06-25T07:15:01.217Z [INFO] Successfully bound to the SMPP server
+2024-06-25T07:15:08.075Z [INFO] SMPP session closed
+2024-06-25T07:15:09.967Z [INFO] Connected to SMPP server
+2024-06-25T07:15:14.841Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-25T07:15:39.065Z [INFO] Connected to SMPP server
+2024-06-25T07:15:43.965Z [INFO] Connected to SMPP server
+2024-06-25T07:17:25.701Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-25T07:17:25.702Z [INFO] SMPP session closed
+2024-06-25T07:17:25.704Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-25T07:17:25.705Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-25T07:17:25.706Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-25T07:17:25.708Z [INFO] SMPP session closed
+2024-06-25T07:17:25.708Z [INFO] SMPP session closed
+2024-06-25T07:17:25.709Z [INFO] SMPP session closed
+2024-06-25T07:17:31.468Z [INFO] Connected to SMPP server
+2024-06-25T07:19:09.915Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-25T07:19:09.917Z [INFO] SMPP session closed
+2024-06-25T07:19:18.359Z [INFO] Connected to SMPP server
+2024-06-25T07:19:41.227Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-25T07:19:41.228Z [INFO] SMPP session closed
+2024-06-25T07:19:45.149Z [INFO] Connected to SMPP server
+2024-06-25T07:19:51.106Z [INFO] Connected to SMPP server
+2024-06-25T07:19:51.111Z [INFO] Successfully bound to the SMPP server
+2024-06-25T07:20:35.497Z [INFO] Server is running on port 3004
+2024-06-25T07:20:40.208Z [INFO] Connected to SMPP server
+2024-06-25T07:20:40.209Z [INFO] Successfully bound to the SMPP server txonly
+2024-06-25T07:20:40.210Z [INFO] Successfully bound to the SMPP server txonly
+2024-06-25T07:21:05.498Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-25T07:21:16.621Z [INFO] Connected to SMPP server
+2024-06-25T07:21:16.623Z [INFO] Successfully bound to the SMPP server rxonly
+2024-06-25T07:21:16.627Z [INFO] Successfully bound to the SMPP server
+2024-06-25T07:21:43.087Z [INFO] Server is running on port 3004
+2024-06-25T07:21:46.242Z [INFO] Connected to SMPP server
+2024-06-25T07:22:01.637Z [INFO] Connected to SMPP server
+2024-06-25T07:22:13.096Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-25T07:25:04.954Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-25T07:25:04.963Z [INFO] SMPP session closed
+2024-06-25T07:25:04.965Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-25T07:25:04.968Z [INFO] SMPP session closed
+2024-06-25T07:25:10.992Z [INFO] Connected to SMPP server
+2024-06-25T07:25:11.006Z [INFO] Successfully bound to the SMPP server rx now
+2024-06-25T07:25:11.007Z [ERROR] Failed to bind to SMPP server: 14
+2024-06-25T07:25:43.823Z [INFO] Connected to SMPP server
+2024-06-25T07:25:43.829Z [INFO] Successfully bound to the SMPP server rx now
+2024-06-25T07:25:43.830Z [INFO] Successfully bound to the SMPP server
+2024-06-25T07:26:18.633Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-25T07:26:18.634Z [INFO] SMPP session closed
+2024-06-25T07:26:18.635Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-25T07:26:18.636Z [INFO] SMPP session closed
+2024-06-25T07:26:22.264Z [INFO] Connected to SMPP server
+2024-06-25T07:26:22.277Z [INFO] Successfully bound to the SMPP server rx now
+2024-06-25T07:26:22.277Z [ERROR] Failed to bind to SMPP server: 14
+2024-06-25T07:26:41.709Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-25T07:26:41.709Z [INFO] SMPP session closed
+2024-06-25T07:26:45.111Z [INFO] Connected to SMPP server
+2024-06-25T07:26:45.122Z [INFO] Successfully bound to the SMPP server rx now
+2024-06-25T07:26:45.123Z [ERROR] Failed to bind to SMPP server: 14
+2024-06-25T07:28:02.795Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-25T07:28:02.795Z [INFO] SMPP session closed
+2024-06-25T07:28:07.218Z [INFO] Connected to SMPP server
+2024-06-25T07:28:07.235Z [INFO] Successfully bound to the SMPP server rx now
+2024-06-25T07:28:07.235Z [ERROR] Failed to bind to SMPP server: 14
+2024-06-25T07:29:23.867Z [INFO] Server is running on port 3004
+2024-06-25T07:29:53.736Z [INFO] Connected to SMPP server
+2024-06-25T07:29:53.750Z [INFO] Successfully bound to the SMPP server rx now
+2024-06-25T07:29:53.752Z [ERROR] Failed to bind to SMPP server: 14
+2024-06-25T07:29:53.872Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-25T07:30:40.695Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-25T07:30:40.696Z [INFO] SMPP session closed
+2024-06-25T07:30:46.822Z [INFO] Server is running on port 3004
+2024-06-25T07:31:11.989Z [INFO] Connected to SMPP server
+2024-06-25T07:31:12.009Z [INFO] Successfully bound to the SMPP server rx now
+2024-06-25T07:31:12.010Z [INFO] Successfully bound to the SMPP server
+2024-06-25T07:31:16.826Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-25T07:32:28.776Z [INFO] Message successfully sent
+2024-06-25T07:32:40.598Z [INFO] SMPP session closed
+2024-06-25T07:32:42.641Z [INFO] Connected to SMPP server
+2024-06-25T07:32:42.647Z [INFO] Successfully bound to the SMPP server rx now
+2024-06-25T07:32:42.648Z [INFO] Successfully bound to the SMPP server
+2024-06-25T07:32:44.507Z [INFO] Message successfully sent
+2024-06-25T07:36:28.603Z [INFO] SMPP session closed
+2024-06-25T07:36:31.896Z [INFO] Connected to SMPP server
+2024-06-25T07:36:31.901Z [INFO] Successfully bound to the SMPP server rx now
+2024-06-25T07:36:31.901Z [INFO] Successfully bound to the SMPP server
+2024-06-25T07:36:33.736Z [INFO] Message successfully sent
+2024-06-26T02:38:23.629Z [INFO] Server is running on port 3004
+2024-06-26T02:38:53.634Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-27T03:19:13.086Z [INFO] Server is running on port 3004
+2024-06-27T03:19:43.100Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-27T07:48:05.246Z [INFO] Server is running on port 3004
+2024-06-27T07:48:07.475Z [INFO] Connected to SMPP server
+2024-06-27T07:48:07.483Z [INFO] Successfully bound to the SMPP server
+2024-06-27T07:48:35.260Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-27T07:49:14.538Z [INFO] Server is running on port 3004
+2024-06-27T07:49:18.673Z [INFO] Connected to SMPP server
+2024-06-27T07:49:18.676Z [INFO] Successfully bound to the SMPP server
+2024-06-27T07:49:44.546Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-27T07:50:24.099Z [INFO] Server is running on port 3004
+2024-06-27T07:50:26.084Z [INFO] Connected to SMPP server
+2024-06-27T07:50:26.089Z [INFO] Successfully bound to the SMPP server
+2024-06-27T07:50:54.110Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-27T07:51:25.668Z [INFO] Server is running on port 3004
+2024-06-27T07:51:29.462Z [INFO] Connected to SMPP server
+2024-06-27T07:51:29.468Z [INFO] Successfully bound to the SMPP server
+2024-06-27T07:51:55.670Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-27T07:52:07.399Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-27T07:52:14.985Z [INFO] Server is running on port 3004
+2024-06-27T07:52:22.454Z [INFO] Connected to SMPP server
+2024-06-27T07:52:22.462Z [INFO] Successfully bound to the SMPP server
+2024-06-27T07:52:44.990Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-27T07:53:13.007Z [INFO] Server is running on port 3004
+2024-06-27T07:53:15.203Z [INFO] Connected to SMPP server
+2024-06-27T07:53:15.209Z [INFO] Successfully bound to the SMPP server
+2024-06-27T07:53:43.019Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-27T08:23:42.601Z [INFO] Server is running on port 3004
+2024-06-27T08:23:48.640Z [INFO] Connected to SMPP server
+2024-06-27T08:23:48.644Z [INFO] Successfully bound to the SMPP server
+2024-06-27T08:24:12.612Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-27T08:25:20.977Z [INFO] Server is running on port 3004
+2024-06-27T08:25:22.617Z [INFO] Connected to SMPP server
+2024-06-27T08:25:22.622Z [INFO] Successfully bound to the SMPP server
+2024-06-27T08:25:50.985Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-27T08:27:13.384Z [INFO] Server is running on port 3004
+2024-06-27T08:27:16.591Z [INFO] Connected to SMPP server
+2024-06-27T08:27:16.618Z [INFO] Successfully bound to the SMPP server
+2024-06-27T08:27:43.382Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-27T08:29:04.944Z [INFO] Connected to SMPP server
+2024-06-27T08:29:04.947Z [INFO] Successfully bound to the SMPP server
+2024-06-28T02:38:52.119Z [INFO] Server is running on port 3004
+2024-06-28T02:39:22.130Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-28T03:04:37.480Z [INFO] Connected to SMPP server
+2024-06-28T03:04:37.491Z [INFO] Successfully bound to the SMPP server
+2024-06-28T06:22:21.786Z [INFO] Connected to SMPP server
+2024-06-28T06:22:21.792Z [INFO] Successfully bound to the SMPP server
+2024-06-28T06:23:39.311Z [INFO] Connected to SMPP server
+2024-06-28T06:23:39.315Z [INFO] Successfully bound to the SMPP server
+2024-06-28T06:25:26.520Z [INFO] Connected to SMPP server
+2024-06-28T06:25:26.527Z [INFO] Successfully bound to the SMPP server
+2024-06-28T06:26:50.334Z [INFO] Connected to SMPP server
+2024-06-28T06:26:50.337Z [INFO] Successfully bound to the SMPP server
+2024-06-28T06:27:42.960Z [INFO] Connected to SMPP server
+2024-06-28T06:27:42.962Z [INFO] Successfully bound to the SMPP server
+2024-06-28T06:28:39.009Z [INFO] Server is running on port 3004
+2024-06-28T06:28:42.326Z [INFO] Connected to SMPP server
+2024-06-28T06:28:42.332Z [INFO] Successfully bound to the SMPP server
+2024-06-28T06:29:09.021Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-28T06:32:11.024Z [INFO] Connected to SMPP server
+2024-06-28T06:32:11.027Z [INFO] Successfully bound to the SMPP server
+2024-06-28T06:35:59.018Z [INFO] Server is running on port 3004
+2024-06-28T06:36:11.368Z [INFO] Connected to SMPP server
+2024-06-28T06:36:11.371Z [INFO] Successfully bound to the SMPP server
+2024-06-28T06:36:29.020Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-06-28T06:39:59.135Z [INFO] Connected to SMPP server
+2024-06-28T06:39:59.137Z [INFO] Successfully bound to the SMPP server
+2024-06-28T09:47:37.311Z [INFO] Server is running on port 3004
+2024-06-28T09:47:56.916Z [INFO] Server is running on port 3004
+2024-06-28T09:47:58.819Z [INFO] Connected to SMPP server
+2024-06-28T09:47:58.822Z [INFO] Successfully bound to the SMPP server
+2024-06-28T09:48:26.928Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-07-02T02:27:19.931Z [INFO] Server is running on port 3004
+2024-07-02T02:27:49.934Z [ERROR] Failed to connect to MongoDB connect ETIMEDOUT 192.168.100.21:27017
+2024-07-02T02:33:09.029Z [INFO] Server is running on port 3004
+2024-07-02T02:33:27.114Z [INFO] Server is running on port 3004
+2024-07-02T02:33:27.128Z [INFO] Connected to MongoDBssssss
+2024-07-02T09:39:51.541Z [INFO] Server is running on port 3004
+2024-07-02T09:39:51.556Z [INFO] Connected to MongoDBssssss
+2024-07-03T01:59:06.198Z [INFO] Server is running on port 3004
+2024-07-03T01:59:06.212Z [INFO] Connected to MongoDBssssss
+2024-07-03T02:22:38.745Z [INFO] Server is running on port 3004
+2024-07-03T02:22:38.758Z [INFO] Connected to MongoDBssssss
+2024-07-03T02:23:17.326Z [INFO] Server is running on port 3004
+2024-07-03T02:23:17.340Z [INFO] Connected to MongoDBssssss
+2024-07-03T02:25:52.955Z [INFO] Server is running on port 3004
+2024-07-03T02:25:52.970Z [INFO] Connected to MongoDBssssss
+2024-07-03T02:26:21.885Z [INFO] Server is running on port 3004
+2024-07-03T02:26:21.901Z [INFO] Connected to MongoDBssssss
+2024-07-03T02:31:53.707Z [INFO] Connected to SMPP server
+2024-07-03T02:31:53.717Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T02:31:53.718Z [INFO] Successfully bound to the SMPP server
+2024-07-03T02:32:24.188Z [INFO] Connected to SMPP server
+2024-07-03T02:32:24.192Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T02:32:24.193Z [INFO] Successfully bound to the SMPP server
+2024-07-03T02:32:32.699Z [INFO] Connected to SMPP server
+2024-07-03T02:32:32.703Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T02:32:32.704Z [INFO] Successfully bound to the SMPP server
+2024-07-03T02:32:41.112Z [INFO] Connected to SMPP server
+2024-07-03T02:32:41.116Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T02:32:41.117Z [INFO] Successfully bound to the SMPP server
+2024-07-03T02:32:48.591Z [INFO] SMPP session closed
+2024-07-03T02:32:51.209Z [INFO] Connected to SMPP server
+2024-07-03T02:32:51.212Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T02:32:51.213Z [INFO] Successfully bound to the SMPP server
+2024-07-03T02:33:07.250Z [ERROR] Failed to send message: Invalid input
+2024-07-03T02:35:45.241Z [INFO] Server is running on port 3004
+2024-07-03T02:35:45.254Z [INFO] Connected to MongoDBssssss
+2024-07-03T02:35:59.145Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:4005
+2024-07-03T02:35:59.147Z [INFO] SMPP session closed
+2024-07-03T02:36:08.798Z [INFO] Connected to SMPP server
+2024-07-03T02:36:08.804Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T02:36:08.805Z [INFO] Successfully bound to the SMPP server
+2024-07-03T02:36:14.161Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:4005
+2024-07-03T02:36:14.164Z [INFO] SMPP session closed
+2024-07-03T02:46:34.284Z [INFO] Connected to SMPP server
+2024-07-03T02:46:34.290Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T02:46:34.291Z [ERROR] Failed to bind to SMPP server: 14
+2024-07-03T02:47:02.201Z [INFO] Connected to SMPP server
+2024-07-03T02:47:02.203Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T02:47:02.204Z [ERROR] Failed to bind to SMPP server: 14
+2024-07-03T02:47:11.500Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:4005
+2024-07-03T02:47:11.501Z [INFO] SMPP session closed
+2024-07-03T02:48:10.657Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:4005
+2024-07-03T02:48:10.659Z [INFO] SMPP session closed
+2024-07-03T02:48:18.337Z [INFO] Connected to SMPP server
+2024-07-03T02:48:18.340Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T02:48:18.341Z [ERROR] Failed to bind to SMPP server: 14
+2024-07-03T02:49:16.024Z [INFO] Server is running on port 3004
+2024-07-03T02:49:16.045Z [INFO] Connected to MongoDBssssss
+2024-07-03T02:49:19.716Z [INFO] Connected to SMPP server
+2024-07-03T02:49:19.722Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T02:49:19.723Z [ERROR] Failed to bind to SMPP server: 14
+2024-07-03T03:38:10.838Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:4003
+2024-07-03T03:38:10.840Z [INFO] SMPP session closed
+2024-07-03T03:38:17.149Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:4003
+2024-07-03T03:38:17.150Z [INFO] SMPP session closed
+2024-07-03T03:38:29.589Z [ERROR] Failed to send message: Invalid input
+2024-07-03T03:39:12.061Z [ERROR] Failed to send message: Invalid input
+2024-07-03T03:39:38.313Z [ERROR] Failed to send message: Invalid input
+2024-07-03T03:39:45.666Z [ERROR] Failed to send message: Invalid input
+2024-07-03T03:41:41.450Z [INFO] Connected to SMPP server
+2024-07-03T03:41:41.453Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T03:41:41.454Z [INFO] Successfully bound to the SMPP server
+2024-07-03T03:42:37.416Z [INFO] Connected to SMPP server
+2024-07-03T03:42:37.419Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T03:42:37.419Z [INFO] Successfully bound to the SMPP server
+2024-07-03T03:42:40.790Z [INFO] Connected to SMPP server
+2024-07-03T03:42:40.793Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T03:42:40.793Z [INFO] Successfully bound to the SMPP server
+2024-07-03T03:43:05.185Z [INFO] Server is running on port 3004
+2024-07-03T03:43:05.198Z [INFO] Connected to MongoDBssssss
+2024-07-03T03:43:18.695Z [INFO] Connected to SMPP server
+2024-07-03T03:43:18.701Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T03:43:18.703Z [INFO] Successfully bound to the SMPP server
+2024-07-03T03:43:45.228Z [INFO] Connected to SMPP server
+2024-07-03T03:43:45.231Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T03:43:45.232Z [INFO] Successfully bound to the SMPP server
+2024-07-03T03:43:46.686Z [INFO] Connected to SMPP server
+2024-07-03T03:43:46.688Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T03:43:46.689Z [INFO] Successfully bound to the SMPP server
+2024-07-03T03:43:47.678Z [INFO] Connected to SMPP server
+2024-07-03T03:43:47.680Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T03:43:47.680Z [INFO] Successfully bound to the SMPP server
+2024-07-03T03:44:16.327Z [INFO] SMPP session closed
+2024-07-03T03:44:41.611Z [INFO] Connected to SMPP server
+2024-07-03T03:44:41.613Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T03:44:41.614Z [INFO] Successfully bound to the SMPP server
+2024-07-03T03:45:23.827Z [INFO] Connected to SMPP server
+2024-07-03T03:45:23.829Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T03:45:23.830Z [INFO] Successfully bound to the SMPP server
+2024-07-03T04:17:12.705Z [INFO] SMPP session closed
+2024-07-03T04:17:39.194Z [INFO] Connected to SMPP server
+2024-07-03T04:17:39.198Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T04:17:39.198Z [INFO] Successfully bound to the SMPP server
+2024-07-03T04:34:29.394Z [INFO] SMPP session closed
+2024-07-03T07:10:46.558Z [INFO] Server is running on port 3004
+2024-07-03T07:10:46.571Z [INFO] Connected to MongoDBssssss
+2024-07-03T07:12:03.320Z [INFO] Server is running on port 3004
+2024-07-03T07:12:03.338Z [INFO] Connected to MongoDBssssss
+2024-07-03T07:12:22.784Z [INFO] Connected to SMPP server
+2024-07-03T07:12:22.791Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T07:12:22.792Z [INFO] Successfully bound to the SMPP server
+2024-07-03T07:12:55.809Z [INFO] Server is running on port 3004
+2024-07-03T07:12:55.863Z [INFO] Connected to MongoDBssssss
+2024-07-03T07:13:00.623Z [INFO] Connected to SMPP server
+2024-07-03T07:13:00.627Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T07:13:00.628Z [INFO] Successfully bound to the SMPP server
+2024-07-03T07:13:05.755Z [INFO] SMPP session closed
+2024-07-03T07:13:10.680Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:4005
+2024-07-03T07:13:10.681Z [INFO] SMPP session closed
+2024-07-03T07:13:17.821Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:4005
+2024-07-03T07:13:17.823Z [INFO] SMPP session closed
+2024-07-03T07:13:23.467Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:4005
+2024-07-03T07:13:23.470Z [INFO] SMPP session closed
+2024-07-03T07:13:47.701Z [INFO] Connected to SMPP server
+2024-07-03T07:13:47.705Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T07:13:47.706Z [ERROR] Failed to bind to SMPP server: 14
+2024-07-03T07:14:02.868Z [INFO] Connected to SMPP server
+2024-07-03T07:14:02.870Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T07:14:02.871Z [INFO] Successfully bound to the SMPP server
+2024-07-03T07:14:04.942Z [INFO] SMPP session closed
+2024-07-03T07:41:11.530Z [INFO] Connected to SMPP server
+2024-07-03T07:41:11.533Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T07:41:11.534Z [INFO] Successfully bound to the SMPP server
+2024-07-03T07:41:19.095Z [INFO] SMPP session closed
+2024-07-03T07:41:21.251Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:4004
+2024-07-03T07:41:21.253Z [INFO] SMPP session closed
+2024-07-03T07:41:25.645Z [INFO] Connected to SMPP server
+2024-07-03T07:41:25.648Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T07:41:25.648Z [INFO] Successfully bound to the SMPP server
+2024-07-03T07:41:27.899Z [INFO] SMPP session closed
+2024-07-03T07:41:31.612Z [INFO] Connected to SMPP server
+2024-07-03T07:41:31.615Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T07:41:31.616Z [INFO] Successfully bound to the SMPP server
+2024-07-03T07:41:38.067Z [INFO] SMPP session closed
+2024-07-03T07:41:39.523Z [INFO] Connected to SMPP server
+2024-07-03T07:41:39.526Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T07:41:39.526Z [ERROR] Failed to bind to SMPP server: 14
+2024-07-03T07:41:43.807Z [INFO] Connected to SMPP server
+2024-07-03T07:41:43.809Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T07:41:43.810Z [INFO] Successfully bound to the SMPP server
+2024-07-03T07:41:45.036Z [INFO] SMPP session closed
+2024-07-03T07:44:06.710Z [INFO] Connected to SMPP server
+2024-07-03T07:44:06.713Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T07:44:06.713Z [INFO] Successfully bound to the SMPP server
+2024-07-03T08:10:47.397Z [INFO] SMPP session closed
+2024-07-03T09:25:10.349Z [INFO] Server is running on port 3004
+2024-07-03T09:25:10.363Z [INFO] Connected to MongoDBssssss
+2024-07-03T09:25:23.313Z [INFO] Connected to SMPP server
+2024-07-03T09:25:23.317Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T09:25:23.318Z [INFO] Successfully bound to the SMPP server
+2024-07-03T09:25:34.141Z [INFO] Message successfully sent
+2024-07-03T09:27:41.713Z [INFO] Server is running on port 3004
+2024-07-03T09:27:41.727Z [INFO] Connected to MongoDBssssss
+2024-07-03T09:27:53.669Z [INFO] Connected to SMPP server
+2024-07-03T09:27:53.673Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T09:27:53.673Z [INFO] Successfully bound to the SMPP server
+2024-07-03T09:27:55.248Z [INFO] Message successfully sent
+2024-07-03T09:28:12.382Z [INFO] Server is running on port 3004
+2024-07-03T09:28:12.396Z [INFO] Connected to MongoDBssssss
+2024-07-03T09:28:28.621Z [INFO] Server is running on port 3004
+2024-07-03T09:28:28.635Z [INFO] Connected to MongoDBssssss
+2024-07-03T09:28:31.325Z [INFO] Connected to SMPP server
+2024-07-03T09:28:31.330Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-03T09:28:31.330Z [INFO] Successfully bound to the SMPP server
+2024-07-03T09:28:32.654Z [INFO] Message successfully sent
+2024-07-03T09:49:24.949Z [INFO] Server is running on port 3004
+2024-07-03T09:49:24.969Z [INFO] Connected to MongoDBssssss
+2024-07-04T02:56:11.802Z [INFO] Server is running on port 3004
+2024-07-04T02:56:11.815Z [INFO] Connected to MongoDBssssss
+2024-07-04T03:06:56.254Z [INFO] Connected to SMPP server
+2024-07-04T03:06:56.263Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-04T03:06:56.264Z [INFO] Successfully bound to the SMPP server
+2024-07-04T03:07:02.193Z [INFO] SMPP session closed
+2024-07-04T06:02:24.683Z [INFO] Server is running on port 3004
+2024-07-04T06:02:24.696Z [INFO] Connected to MongoDBssssss
+2024-07-04T06:16:23.109Z [INFO] Connected to SMPP server
+2024-07-04T06:16:23.119Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-04T06:16:23.120Z [INFO] Successfully bound to the SMPP server
+2024-07-04T06:16:49.229Z [INFO] Message successfully sent
+2024-07-04T06:17:03.444Z [INFO] SMPP session closed
+2024-07-04T07:14:49.230Z [INFO] Server is running on port 3004
+2024-07-04T07:14:49.245Z [INFO] Connected to MongoDBssssss
+2024-07-04T07:18:04.244Z [INFO] Connected to SMPP server
+2024-07-04T07:18:04.249Z [INFO] Successfully bound to the SMPP server
+2024-07-04T07:24:52.509Z [INFO] Server is running on port 3004
+2024-07-04T07:24:52.523Z [INFO] Connected to MongoDBssssss
+2024-07-04T07:24:59.247Z [INFO] Connected to SMPP server
+2024-07-04T07:24:59.252Z [INFO] Successfully bound to the SMPP server
+2024-07-04T07:37:44.579Z [INFO] Connected to SMPP server
+2024-07-04T07:37:44.582Z [INFO] Successfully bound to the SMPP server
+2024-07-05T03:27:07.102Z [INFO] Server is running on port 3004
+2024-07-05T03:27:07.122Z [INFO] Connected to MongoDBssssss
+2024-07-05T03:27:50.232Z [INFO] Connected to SMPP server
+2024-07-05T03:27:50.244Z [INFO] Successfully bound to the SMPP server
+2024-07-05T03:28:28.770Z [INFO] Connected to SMPP server
+2024-07-05T03:28:28.773Z [INFO] Successfully bound to the SMPP server
+2024-07-05T03:33:41.884Z [INFO] Connected to SMPP server
+2024-07-05T03:33:41.887Z [INFO] Successfully bound to the SMPP server
+2024-07-05T03:34:52.054Z [INFO] Connected to SMPP server
+2024-07-05T03:34:52.056Z [INFO] Successfully bound to the SMPP server
+2024-07-05T03:35:58.952Z [INFO] Connected to SMPP server
+2024-07-05T03:35:58.956Z [INFO] Successfully bound to the SMPP server
+2024-07-05T03:35:58.978Z [INFO] Connected to SMPP server
+2024-07-05T03:35:58.981Z [INFO] Successfully bound to the SMPP server
+2024-07-05T03:38:16.982Z [INFO] Server is running on port 3004
+2024-07-05T03:38:16.998Z [INFO] Connected to MongoDBssssss
+2024-07-05T03:39:40.903Z [INFO] Connected to SMPP server
+2024-07-05T03:39:40.910Z [INFO] Successfully bound to the SMPP server
+2024-07-05T03:40:01.009Z [INFO] Connected to SMPP server
+2024-07-05T03:40:01.012Z [INFO] Successfully bound to the SMPP server
+2024-07-05T04:43:22.558Z [INFO] Server is running on port 3004
+2024-07-05T04:43:22.575Z [INFO] Connected to MongoDBssssss
+2024-07-05T04:43:27.810Z [INFO] Connected to SMPP server
+2024-07-05T04:43:27.815Z [INFO] Successfully bound to the SMPP server
+2024-07-05T07:22:24.397Z [INFO] Server is running on port 3004
+2024-07-05T07:22:24.417Z [INFO] Connected to MongoDBssssss
+2024-07-05T07:22:30.797Z [INFO] Connected to SMPP server
+2024-07-05T07:22:30.803Z [INFO] Successfully bound to the SMPP server
+2024-07-05T07:22:56.613Z [INFO] Server is running on port 3004
+2024-07-05T07:22:56.627Z [INFO] Connected to MongoDBssssss
+2024-07-05T07:22:59.050Z [INFO] Connected to SMPP server
+2024-07-05T07:22:59.054Z [INFO] Successfully bound to the SMPP server
+2024-07-05T07:23:28.370Z [INFO] Server is running on port 3004
+2024-07-05T07:23:28.390Z [INFO] Connected to MongoDBssssss
+2024-07-05T07:23:30.704Z [INFO] Connected to SMPP server
+2024-07-05T07:23:30.708Z [INFO] Successfully bound to the SMPP server
+2024-07-05T07:30:17.830Z [INFO] Connected to SMPP server
+2024-07-05T07:30:17.833Z [INFO] Successfully bound to the SMPP server
+2024-07-05T07:32:27.849Z [INFO] Connected to SMPP server
+2024-07-05T07:32:27.852Z [INFO] Successfully bound to the SMPP server
+2024-07-05T07:41:05.820Z [INFO] Connected to SMPP server
+2024-07-05T07:41:05.828Z [INFO] Successfully bound to the SMPP server
+2024-07-05T07:41:33.650Z [INFO] Server is running on port 3004
+2024-07-05T07:41:33.670Z [INFO] Connected to MongoDBssssss
+2024-07-05T07:41:35.563Z [INFO] Connected to SMPP server
+2024-07-05T07:41:35.568Z [INFO] Successfully bound to the SMPP server
+2024-07-05T08:33:40.192Z [INFO] Connected to SMPP server
+2024-07-05T08:33:40.196Z [INFO] Successfully bound to the SMPP server
+2024-07-05T08:33:40.209Z [INFO] Connected to SMPP server
+2024-07-05T08:33:40.212Z [INFO] Successfully bound to the SMPP server
+2024-07-05T08:34:22.025Z [INFO] Connected to SMPP server
+2024-07-05T08:34:22.028Z [INFO] Successfully bound to the SMPP server
+2024-07-05T08:36:04.651Z [INFO] Connected to SMPP server
+2024-07-05T08:36:04.655Z [INFO] Successfully bound to the SMPP server
+2024-07-05T08:54:48.811Z [INFO] Connected to SMPP server
+2024-07-05T08:54:48.813Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-05T08:54:48.814Z [INFO] Successfully bound to the SMPP server
+2024-07-05T08:54:50.906Z [INFO] SMPP session closed
+2024-07-05T08:54:53.009Z [INFO] Connected to SMPP server
+2024-07-05T08:54:53.012Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-05T08:54:53.013Z [INFO] Successfully bound to the SMPP server
+2024-07-05T08:55:13.416Z [INFO] Message successfully sent
+2024-07-05T08:56:24.492Z [INFO] Connected to SMPP server
+2024-07-05T08:56:24.495Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-05T08:56:24.495Z [INFO] Successfully bound to the SMPP server
+2024-07-05T08:56:35.228Z [INFO] Message successfully sent
+2024-07-05T08:57:11.891Z [INFO] Connected to SMPP server
+2024-07-05T08:57:11.894Z [INFO] Successfully bound to the SMPP server
+2024-07-05T09:32:07.269Z [INFO] Connected to SMPP server
+2024-07-05T09:32:07.285Z [INFO] Successfully bound to the SMPP server
+2024-07-05T09:32:25.364Z [INFO] Connected to SMPP server
+2024-07-05T09:32:25.366Z [INFO] Successfully bound to the SMPP server
+2024-07-05T09:40:25.913Z [INFO] Connected to SMPP server
+2024-07-05T09:40:25.915Z [INFO] Successfully bound to the SMPP server
+2024-07-05T09:40:40.779Z [INFO] Connected to SMPP server
+2024-07-05T09:40:40.782Z [INFO] Successfully bound to the SMPP server
+2024-07-05T09:40:40.818Z [INFO] Connected to SMPP server
+2024-07-05T09:40:40.820Z [INFO] Successfully bound to the SMPP server
+2024-07-05T09:49:17.988Z [INFO] Connected to SMPP server
+2024-07-05T09:49:17.991Z [INFO] Successfully bound to the SMPP server
+2024-07-05T09:49:18.016Z [INFO] Connected to SMPP server
+2024-07-05T09:49:18.018Z [INFO] Successfully bound to the SMPP server
+2024-07-09T01:55:04.339Z [INFO] Server is running on port 3004
+2024-07-09T01:55:04.354Z [INFO] Connected to MongoDBssssss
+2024-07-10T03:13:01.370Z [INFO] Server is running on port 3004
+2024-07-10T03:13:01.385Z [INFO] Connected to MongoDBssssss
+2024-07-10T03:48:30.033Z [INFO] Server is running on port 3004
+2024-07-10T03:48:30.049Z [INFO] Connected to MongoDBssssss
+2024-07-10T03:51:59.114Z [INFO] Connected to SMPP server
+2024-07-10T03:51:59.123Z [INFO] Successfully bound to the SMPP server
+2024-07-11T02:23:34.010Z [INFO] Server is running on port 3004
+2024-07-11T02:23:34.026Z [INFO] Connected to MongoDBssssss
+2024-07-11T02:29:11.341Z [INFO] Server is running on port 3004
+2024-07-11T02:29:11.356Z [INFO] Connected to MongoDBssssss
+2024-07-11T02:29:32.426Z [ERROR] SMPP session error: Error: getaddrinfo ENOTFOUND tcp://127.0.0.1
+2024-07-11T02:29:32.433Z [INFO] SMPP session closed
+2024-07-11T03:19:09.259Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:3001
+2024-07-11T03:19:09.262Z [INFO] SMPP session closed
+2024-07-11T03:20:23.792Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:3002
+2024-07-11T03:20:23.794Z [INFO] SMPP session closed
+2024-07-11T03:21:50.908Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:3001
+2024-07-11T03:21:50.910Z [INFO] SMPP session closed
+2024-07-11T03:22:29.449Z [ERROR] SMPP session error: Error: getaddrinfo ENOTFOUND tcp://127.0.0.1
+2024-07-11T03:22:29.451Z [INFO] SMPP session closed
+2024-07-11T03:22:49.810Z [ERROR] SMPP session error: Error: getaddrinfo ENOTFOUND tcp://127.0.0.1
+2024-07-11T03:22:49.812Z [INFO] SMPP session closed
+2024-07-11T03:23:13.972Z [ERROR] SMPP session error: Error: getaddrinfo ENOTFOUND tcp://127.0.0.1:3001
+2024-07-11T03:23:13.974Z [INFO] SMPP session closed
+2024-07-11T03:23:15.487Z [ERROR] SMPP session error: Error: getaddrinfo ENOTFOUND tcp://127.0.0.1:3001
+2024-07-11T03:23:15.489Z [INFO] SMPP session closed
+2024-07-11T03:23:51.601Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:3001
+2024-07-11T03:23:51.603Z [INFO] SMPP session closed
+2024-07-11T03:24:06.034Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:2777
+2024-07-11T03:24:06.048Z [INFO] SMPP session closed
+2024-07-11T03:26:01.546Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2777
+2024-07-11T03:26:01.548Z [INFO] SMPP session closed
+2024-07-11T03:26:14.879Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:3001
+2024-07-11T03:26:14.881Z [INFO] SMPP session closed
+2024-07-11T03:27:10.787Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:3001
+2024-07-11T03:27:10.788Z [INFO] SMPP session closed
+2024-07-11T03:34:01.242Z [INFO] Server is running on port 3004
+2024-07-11T03:34:01.272Z [INFO] Connected to MongoDBssssss
+2024-07-11T03:35:27.319Z [INFO] Server is running on port 3004
+2024-07-11T03:35:27.333Z [INFO] Connected to MongoDBssssss
+2024-07-11T03:36:01.345Z [INFO] Server is running on port 3004
+2024-07-11T03:36:01.363Z [INFO] Connected to MongoDBssssss
+2024-07-11T03:37:22.442Z [INFO] Server is running on port 3004
+2024-07-11T03:37:22.456Z [INFO] Connected to MongoDBssssss
+2024-07-11T03:40:11.343Z [INFO] Server is running on port 3004
+2024-07-11T03:40:11.357Z [INFO] Connected to MongoDBssssss
+2024-07-11T03:40:45.042Z [INFO] Server is running on port 3004
+2024-07-11T03:40:45.058Z [INFO] Connected to MongoDBssssss
+2024-07-11T03:41:15.245Z [INFO] Server is running on port 3004
+2024-07-11T03:41:15.258Z [INFO] Connected to MongoDBssssss
+2024-07-11T03:41:45.676Z [INFO] Server is running on port 3004
+2024-07-11T03:41:45.691Z [INFO] Connected to MongoDBssssss
+2024-07-11T03:42:29.450Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:3001
+2024-07-11T03:42:29.454Z [INFO] SMPP session closed
+2024-07-11T03:45:31.003Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:3001
+2024-07-11T03:45:31.005Z [INFO] SMPP session closed
+2024-07-11T03:45:47.995Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-11T03:45:47.996Z [INFO] SMPP session closed
+2024-07-11T03:46:35.200Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2777
+2024-07-11T03:46:35.203Z [INFO] SMPP session closed
+2024-07-11T07:11:15.615Z [INFO] Server is running on port 3004
+2024-07-11T07:11:15.631Z [INFO] Connected to MongoDBssssss
+2024-07-11T07:14:03.401Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 127.0.0.1:3001
+2024-07-11T07:14:03.403Z [INFO] SMPP session closed
+2024-07-11T07:14:26.774Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:3001
+2024-07-11T07:14:26.776Z [INFO] SMPP session closed
+2024-07-11T07:14:57.433Z [ERROR] SMPP session error: Error: getaddrinfo ENOTFOUND tcp://192.168.3.206
+2024-07-11T07:14:57.435Z [INFO] SMPP session closed
+2024-07-11T07:15:13.582Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:3001
+2024-07-11T07:15:13.585Z [INFO] SMPP session closed
+2024-07-11T07:15:18.384Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2775
+2024-07-11T07:15:18.387Z [INFO] SMPP session closed
+2024-07-11T07:15:27.338Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-11T07:15:27.341Z [INFO] SMPP session closed
+2024-07-11T07:24:55.855Z [INFO] Server is running on port 3004
+2024-07-11T07:24:55.871Z [INFO] Connected to MongoDBssssss
+2024-07-11T07:51:59.198Z [INFO] Server is running on port 3004
+2024-07-11T07:51:59.213Z [INFO] Connected to MongoDBssssss
+2024-07-11T07:52:17.679Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-11T07:52:17.681Z [INFO] SMPP session closed
+2024-07-11T07:53:22.153Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-11T07:53:22.155Z [INFO] SMPP session closed
+2024-07-11T09:10:23.027Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2777
+2024-07-11T09:10:23.029Z [INFO] SMPP session closed
+2024-07-11T09:11:20.956Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-11T09:11:20.957Z [INFO] SMPP session closed
+2024-07-11T09:17:44.251Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-11T09:17:44.254Z [INFO] SMPP session closed
+2024-07-12T02:22:43.698Z [INFO] Server is running on port 3004
+2024-07-12T02:22:43.711Z [INFO] Connected to MongoDBssssss
+2024-07-12T02:23:54.270Z [INFO] Connected to SMPP server
+2024-07-12T02:23:54.313Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T02:25:00.595Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-12T02:25:00.598Z [INFO] SMPP session closed
+2024-07-12T02:25:42.997Z [INFO] Connected to SMPP server
+2024-07-12T02:25:43.042Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:25:43.042Z [ERROR] Failed to bind to SMPP server: 13
+2024-07-12T02:25:43.047Z [INFO] SMPP session closed
+2024-07-12T02:26:01.064Z [INFO] Server is running on port 3004
+2024-07-12T02:26:01.079Z [INFO] Connected to MongoDBssssss
+2024-07-12T02:26:03.000Z [INFO] Connected to SMPP server
+2024-07-12T02:26:03.048Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:26:03.048Z [ERROR] Failed to bind to SMPP server: 13
+2024-07-12T02:26:03.055Z [INFO] SMPP session closed
+2024-07-12T02:26:16.617Z [INFO] Connected to SMPP server
+2024-07-12T02:26:16.661Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T02:27:11.125Z [INFO] Connected to SMPP server
+2024-07-12T02:27:11.175Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:27:11.176Z [ERROR] Failed to bind to SMPP server: 13
+2024-07-12T02:27:11.179Z [INFO] SMPP session closed
+2024-07-12T02:27:49.794Z [INFO] Connected to SMPP server
+2024-07-12T02:27:49.839Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:27:49.840Z [ERROR] Failed to bind to SMPP server: 13
+2024-07-12T02:27:49.842Z [INFO] SMPP session closed
+2024-07-12T02:29:48.176Z [INFO] Connected to SMPP server
+2024-07-12T02:29:48.220Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:29:48.221Z [ERROR] Failed to bind to SMPP server: 13
+2024-07-12T02:29:48.223Z [INFO] SMPP session closed
+2024-07-12T02:30:26.496Z [INFO] Connected to SMPP server
+2024-07-12T02:30:26.540Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:30:26.541Z [ERROR] Failed to bind to SMPP server: 13
+2024-07-12T02:30:26.543Z [INFO] SMPP session closed
+2024-07-12T02:30:31.535Z [INFO] Connected to SMPP server
+2024-07-12T02:30:31.580Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:30:31.581Z [INFO] Successfully bound to the SMPP server
+2024-07-12T02:34:22.792Z [INFO] Connected to SMPP server
+2024-07-12T02:34:34.485Z [INFO] Server is running on port 3004
+2024-07-12T02:34:34.500Z [INFO] Connected to MongoDBssssss
+2024-07-12T02:34:34.735Z [INFO] Connected to SMPP server
+2024-07-12T02:34:34.779Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T02:34:41.641Z [INFO] Server is running on port 3004
+2024-07-12T02:34:41.656Z [INFO] Connected to MongoDBssssss
+2024-07-12T02:34:46.124Z [INFO] Connected to SMPP server
+2024-07-12T02:34:46.168Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T02:36:29.451Z [INFO] Connected to SMPP server
+2024-07-12T02:36:29.499Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:36:29.500Z [INFO] Successfully bound to the SMPP server
+2024-07-12T02:37:43.527Z [INFO] SMPP session closed
+2024-07-12T02:41:06.618Z [INFO] Server is running on port 3004
+2024-07-12T02:41:06.637Z [INFO] Connected to MongoDBssssss
+2024-07-12T02:42:15.126Z [INFO] Connected to SMPP server
+2024-07-12T02:42:15.178Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:42:15.180Z [INFO] Successfully bound to the SMPP server
+2024-07-12T02:43:10.686Z [INFO] Server is running on port 3004
+2024-07-12T02:43:10.702Z [INFO] Connected to MongoDBssssss
+2024-07-12T02:43:34.597Z [INFO] Connected to SMPP server
+2024-07-12T02:43:34.647Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:43:34.648Z [INFO] Successfully bound to the SMPP server
+2024-07-12T02:43:34.741Z [INFO] SMPP session closed
+2024-07-12T02:44:53.681Z [INFO] Server is running on port 3004
+2024-07-12T02:44:53.697Z [INFO] Connected to MongoDBssssss
+2024-07-12T02:45:10.275Z [INFO] Connected to SMPP server
+2024-07-12T02:45:10.324Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:45:10.325Z [INFO] Successfully bound to the SMPP server
+2024-07-12T02:45:34.520Z [INFO] Server is running on port 3004
+2024-07-12T02:45:34.534Z [INFO] Connected to MongoDBssssss
+2024-07-12T02:45:48.325Z [INFO] Connected to SMPP server
+2024-07-12T02:45:48.373Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:45:48.374Z [INFO] Successfully bound to the SMPP server
+2024-07-12T02:46:25.209Z [INFO] Server is running on port 3004
+2024-07-12T02:46:25.225Z [INFO] Connected to MongoDBssssss
+2024-07-12T02:46:40.114Z [INFO] Connected to SMPP server
+2024-07-12T02:46:40.162Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:46:40.163Z [INFO] Successfully bound to the SMPP server
+2024-07-12T02:46:40.260Z [INFO] SMPP session closed
+2024-07-12T02:49:10.580Z [INFO] Server is running on port 3004
+2024-07-12T02:49:10.594Z [INFO] Connected to MongoDBssssss
+2024-07-12T02:49:39.091Z [INFO] Connected to SMPP server
+2024-07-12T02:49:39.100Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:49:39.102Z [ERROR] Failed to bind to SMPP server: 14
+2024-07-12T02:49:39.112Z [INFO] SMPP session closed
+2024-07-12T02:49:54.648Z [INFO] Server is running on port 3004
+2024-07-12T02:49:54.662Z [INFO] Connected to MongoDBssssss
+2024-07-12T02:49:56.763Z [INFO] Connected to SMPP server
+2024-07-12T02:49:56.769Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:49:56.770Z [ERROR] Failed to bind to SMPP server: 14
+2024-07-12T02:50:40.281Z [INFO] Connected to SMPP server
+2024-07-12T02:50:40.286Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T02:50:40.288Z [INFO] Successfully bound to the SMPP server
+2024-07-12T02:50:49.251Z [INFO] SMPP session closed
+2024-07-12T04:14:20.460Z [INFO] Server is running on port 3004
+2024-07-12T04:14:20.473Z [INFO] Connected to MongoDBssssss
+2024-07-12T04:15:01.390Z [INFO] Connected to SMPP server
+2024-07-12T04:15:01.433Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T04:15:18.730Z [INFO] Connected to SMPP server
+2024-07-12T04:15:30.276Z [INFO] Server is running on port 3004
+2024-07-12T04:15:30.294Z [INFO] Connected to MongoDBssssss
+2024-07-12T04:15:30.494Z [INFO] Connected to SMPP server
+2024-07-12T04:15:30.538Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T04:15:34.852Z [INFO] Server is running on port 3004
+2024-07-12T04:15:34.874Z [INFO] Connected to MongoDBssssss
+2024-07-12T04:15:39.598Z [INFO] Connected to SMPP server
+2024-07-12T04:15:39.642Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T04:16:16.896Z [INFO] Server is running on port 3004
+2024-07-12T04:16:16.910Z [INFO] Connected to MongoDBssssss
+2024-07-12T04:16:21.232Z [INFO] Connected to SMPP server
+2024-07-12T04:16:21.275Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T04:17:12.173Z [INFO] Server is running on port 3004
+2024-07-12T04:17:12.190Z [INFO] Connected to MongoDBssssss
+2024-07-12T04:17:16.120Z [INFO] Connected to SMPP server
+2024-07-12T04:17:16.164Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T04:17:40.828Z [INFO] Server is running on port 3004
+2024-07-12T04:17:40.841Z [INFO] Connected to MongoDBssssss
+2024-07-12T04:17:43.521Z [INFO] Connected to SMPP server  2
+2024-07-12T04:17:43.566Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T04:18:01.370Z [INFO] Connected to SMPP server  2
+2024-07-12T04:18:17.278Z [INFO] Server is running on port 3004
+2024-07-12T04:18:17.294Z [INFO] Connected to MongoDBssssss
+2024-07-12T04:18:19.917Z [INFO] Connected to SMPP server
+2024-07-12T04:18:19.962Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T04:18:26.692Z [INFO] Connected to SMPP server
+2024-07-12T04:19:08.387Z [INFO] Connected to SMPP server
+2024-07-12T04:19:14.153Z [INFO] Server is running on port 3004
+2024-07-12T04:19:14.174Z [INFO] Connected to MongoDBssssss
+2024-07-12T04:19:14.420Z [INFO] Connected to SMPP server
+2024-07-12T04:19:14.423Z [INFO] Connected to SMPP server
+2024-07-12T04:19:14.464Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T04:19:25.374Z [INFO] Server is running on port 3004
+2024-07-12T04:19:25.389Z [INFO] Connected to MongoDBssssss
+2024-07-12T04:19:28.254Z [INFO] Connected to SMPP server
+2024-07-12T04:19:28.298Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T04:19:33.354Z [INFO] Connected to SMPP server
+2024-07-12T04:19:51.865Z [INFO] Connected to SMPP server
+2024-07-12T04:19:51.910Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T04:19:51.911Z [INFO] Successfully bound to the SMPP server
+2024-07-12T04:20:00.708Z [INFO] SMPP session closed
+2024-07-12T04:20:13.702Z [INFO] Connected to SMPP server
+2024-07-12T04:20:50.226Z [INFO] Connected to SMPP server
+2024-07-12T04:21:07.225Z [INFO] Connected to SMPP server
+2024-07-12T04:21:32.425Z [INFO] Server is running on port 3004
+2024-07-12T04:21:32.442Z [INFO] Connected to MongoDBssssss
+2024-07-12T04:21:32.675Z [INFO] Connected to SMPP server
+2024-07-12T04:21:32.678Z [INFO] Connected to SMPP server
+2024-07-12T04:21:32.680Z [INFO] Connected to SMPP server
+2024-07-12T04:21:32.681Z [INFO] Connected to SMPP server
+2024-07-12T04:21:32.717Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T04:21:38.219Z [INFO] Connected to SMPP server
+2024-07-12T04:22:24.195Z [INFO] Server is running on port 3004
+2024-07-12T04:22:24.209Z [INFO] Connected to MongoDBssssss
+2024-07-12T04:22:29.752Z [INFO] Connected to SMPP server
+2024-07-12T04:22:29.795Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T05:45:58.726Z [INFO] Server is running on port 3004
+2024-07-12T05:45:58.741Z [INFO] Connected to MongoDBssssss
+2024-07-12T05:46:10.233Z [INFO] Connected to SMPP server
+2024-07-12T05:46:10.279Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T05:46:45.572Z [INFO] Connected to SMPP server
+2024-07-12T05:47:25.964Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-07-12T05:47:25.965Z [INFO] SMPP session closed
+2024-07-12T05:47:40.432Z [INFO] Connected to SMPP server
+2024-07-12T05:47:40.476Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T05:48:14.658Z [INFO] Server is running on port 3004
+2024-07-12T05:48:14.674Z [INFO] Connected to MongoDBssssss
+2024-07-12T05:48:17.953Z [INFO] Connected to SMPP server
+2024-07-12T05:48:17.997Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T05:48:55.826Z [INFO] Server is running on port 3004
+2024-07-12T05:48:55.840Z [INFO] Connected to MongoDBssssss
+2024-07-12T05:49:00.429Z [INFO] Connected to SMPP server
+2024-07-12T05:49:27.025Z [INFO] Server is running on port 3004
+2024-07-12T05:49:27.040Z [INFO] Connected to MongoDBssssss
+2024-07-12T05:49:30.339Z [INFO] Connected to SMPP server
+2024-07-12T05:49:30.382Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T05:49:49.194Z [INFO] Server is running on port 3004
+2024-07-12T05:49:49.208Z [INFO] Connected to MongoDBssssss
+2024-07-12T05:49:51.405Z [INFO] Connected to SMPP server
+2024-07-12T05:49:51.450Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T05:52:14.098Z [INFO] Server is running on port 3004
+2024-07-12T05:52:14.114Z [INFO] Connected to MongoDBssssss
+2024-07-12T05:52:21.478Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:3001
+2024-07-12T05:52:21.486Z [INFO] SMPP session closed
+2024-07-12T05:52:38.914Z [INFO] Server is running on port 3004
+2024-07-12T05:52:38.934Z [INFO] Connected to MongoDBssssss
+2024-07-12T05:52:45.857Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:3001
+2024-07-12T05:52:45.861Z [INFO] SMPP session closed
+2024-07-12T05:53:40.501Z [INFO] Server is running on port 3004
+2024-07-12T05:53:40.516Z [INFO] Connected to MongoDBssssss
+2024-07-12T05:53:44.908Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:3001
+2024-07-12T05:53:44.911Z [INFO] SMPP session closed
+2024-07-12T05:54:07.209Z [INFO] Connected to SMPP server
+2024-07-12T05:54:07.254Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T05:54:26.304Z [INFO] Server is running on port 3004
+2024-07-12T05:54:26.318Z [INFO] Connected to MongoDBssssss
+2024-07-12T05:54:32.090Z [INFO] Connected to SMPP server
+2024-07-12T05:54:32.133Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T05:55:18.341Z [INFO] Server is running on port 3004
+2024-07-12T05:55:18.355Z [INFO] Connected to MongoDBssssss
+2024-07-12T05:55:33.342Z [INFO] Server is running on port 3004
+2024-07-12T05:55:33.359Z [INFO] Connected to MongoDBssssss
+2024-07-12T05:55:39.964Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-12T05:55:39.969Z [INFO] SMPP session closed
+2024-07-12T05:55:52.995Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-12T05:55:52.998Z [INFO] SMPP session closed
+2024-07-12T05:56:33.339Z [INFO] Connected to SMPP server
+2024-07-12T05:56:33.396Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T05:56:33.397Z [INFO] Successfully bound to the SMPP server
+2024-07-12T05:56:46.676Z [INFO] SMPP session closed
+2024-07-12T05:56:57.715Z [INFO] Connected to SMPP server
+2024-07-12T05:56:57.759Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T05:58:57.242Z [INFO] Connected to SMPP server
+2024-07-12T05:58:57.286Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T06:06:26.306Z [INFO] Server is running on port 3004
+2024-07-12T06:06:26.320Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:37:36.145Z [INFO] Connected to SMPP server
+2024-07-12T06:37:36.194Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T06:37:39.745Z [INFO] Connected to SMPP server
+2024-07-12T06:37:52.416Z [INFO] Server is running on port 3004
+2024-07-12T06:37:52.438Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:37:52.516Z [INFO] Connected to SMPP server
+2024-07-12T06:37:52.560Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T06:37:56.344Z [INFO] Server is running on port 3004
+2024-07-12T06:37:56.358Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:37:59.434Z [INFO] Connected to SMPP server
+2024-07-12T06:37:59.480Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T06:40:08.487Z [INFO] Connected to SMPP server
+2024-07-12T06:40:08.532Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T06:40:12.494Z [INFO] Connected to SMPP server
+2024-07-12T06:40:25.572Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-07-12T06:40:25.574Z [INFO] SMPP session closed
+2024-07-12T06:40:31.471Z [INFO] Connected to SMPP server
+2024-07-12T06:40:31.515Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T06:41:24.072Z [INFO] Server is running on port 3004
+2024-07-12T06:41:24.090Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:41:26.581Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T06:42:38.781Z [INFO] SMPP session closed
+2024-07-12T06:42:38.783Z [INFO] SMPP session closed
+2024-07-12T06:43:02.128Z [INFO] Server is running on port 3004
+2024-07-12T06:43:02.142Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:43:02.276Z [INFO] Connected to SMPP server
+2024-07-12T06:43:02.279Z [INFO] Connected to SMPP server
+2024-07-12T06:43:02.329Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T06:43:02.330Z [INFO] Successfully bound to the SMPP server
+2024-07-12T06:43:02.371Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T06:43:02.371Z [ERROR] Failed to bind to SMPP server: 13
+2024-07-12T06:43:02.374Z [INFO] SMPP session closed
+2024-07-12T06:43:19.700Z [INFO] Server is running on port 3004
+2024-07-12T06:43:19.714Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:43:24.118Z [INFO] Connected to SMPP server
+2024-07-12T06:43:24.176Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T06:43:24.177Z [INFO] Successfully bound to the SMPP server
+2024-07-12T06:44:33.931Z [INFO] SMPP session closed
+2024-07-12T06:44:44.550Z [INFO] Connected to SMPP server
+2024-07-12T06:44:44.598Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T06:44:44.599Z [INFO] Successfully bound to the SMPP server
+2024-07-12T06:47:27.607Z [INFO] Server is running on port 3004
+2024-07-12T06:47:27.624Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:48:16.990Z [INFO] Server is running on port 3004
+2024-07-12T06:48:17.008Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:48:47.614Z [INFO] Connected to SMPP server
+2024-07-12T06:48:47.664Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T06:48:47.665Z [INFO] Successfully bound to the SMPP server
+2024-07-12T06:50:13.672Z [INFO] Server is running on port 3004
+2024-07-12T06:50:13.688Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:50:21.853Z [INFO] Connected to SMPP server
+2024-07-12T06:50:21.907Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T06:50:21.908Z [INFO] Successfully bound to the SMPP server
+2024-07-12T06:50:46.020Z [INFO] Server is running on port 3004
+2024-07-12T06:50:46.035Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:51:09.004Z [INFO] Server is running on port 3004
+2024-07-12T06:51:09.017Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:51:14.982Z [INFO] Connected to SMPP server
+2024-07-12T06:51:15.028Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T06:51:15.029Z [INFO] Successfully bound to the SMPP server
+2024-07-12T06:52:01.910Z [INFO] Server is running on port 3004
+2024-07-12T06:52:01.926Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:52:12.863Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-12T06:52:12.865Z [INFO] SMPP session closed
+2024-07-12T06:52:47.870Z [INFO] Server is running on port 3004
+2024-07-12T06:52:47.888Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:52:52.504Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-12T06:52:52.507Z [INFO] SMPP session closed
+2024-07-12T06:53:38.934Z [INFO] Server is running on port 3004
+2024-07-12T06:53:38.947Z [INFO] Connected to MongoDBssssss
+2024-07-12T06:53:43.587Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-12T06:53:43.592Z [INFO] SMPP session closed
+2024-07-12T07:30:35.972Z [INFO] Server is running on port 3004
+2024-07-12T07:30:35.986Z [INFO] Connected to MongoDBssssss
+2024-07-12T07:32:05.481Z [INFO] Connected to SMPP server
+2024-07-12T07:32:05.528Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T07:32:05.529Z [INFO] Successfully bound to the SMPP server
+2024-07-12T07:33:36.398Z [INFO] Server is running on port 3004
+2024-07-12T07:33:36.412Z [INFO] Connected to MongoDBssssss
+2024-07-12T07:33:42.228Z [INFO] Connected to SMPP server
+2024-07-12T07:33:42.277Z [INFO] Successfully bound to the SMPP server rx now
+2024-07-12T07:33:42.278Z [INFO] Successfully bound to the SMPP server
+2024-07-12T07:34:44.377Z [INFO] Server is running on port 3004
+2024-07-12T07:34:44.394Z [INFO] Connected to MongoDBssssss
+2024-07-12T07:40:03.050Z [INFO] Server is running on port 3004
+2024-07-12T07:40:03.067Z [INFO] Connected to MongoDBssssss
+2024-07-12T07:42:30.987Z [INFO] Connected to SMPP server
+2024-07-12T07:42:31.001Z [INFO] Successfully bound to the SMPP server
+2024-07-12T07:42:33.681Z [INFO] Message successfully sent
+2024-07-12T07:42:52.945Z [INFO] Server is running on port 3004
+2024-07-12T07:42:52.961Z [INFO] Connected to MongoDBssssss
+2024-07-12T07:43:37.232Z [INFO] Connected to SMPP server
+2024-07-12T07:43:37.281Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T07:44:37.867Z [INFO] Connected to SMPP server
+2024-07-12T07:44:37.910Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-12T07:45:16.505Z [INFO] Server is running on port 3004
+2024-07-12T07:45:16.522Z [INFO] Connected to MongoDBssssss
+2024-07-12T07:45:18.536Z [INFO] Connected to SMPP server
+2024-07-12T07:45:18.586Z [INFO] Successfully bound to the SMPP server
+2024-07-12T07:46:04.073Z [INFO] SMPP session closed
+2024-07-12T07:48:54.291Z [INFO] Server is running on port 3004
+2024-07-12T07:48:54.309Z [INFO] Connected to MongoDBssssss
+2024-07-12T07:49:21.484Z [ERROR] SMPP session error: Error: connect ETIMEDOUT 192.168.3.206:2776
+2024-07-12T07:49:21.486Z [INFO] SMPP session closed
+2024-07-12T07:49:33.036Z [ERROR] SMPP session error: Error: connect ETIMEDOUT 192.168.3.206:2776
+2024-07-12T07:49:33.039Z [INFO] SMPP session closed
+2024-07-12T07:50:46.199Z [INFO] Server is running on port 3004
+2024-07-12T07:50:46.215Z [INFO] Connected to MongoDBssssss
+2024-07-12T07:51:15.752Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-12T07:51:15.759Z [INFO] SMPP session closed
+2024-07-12T07:51:26.223Z [INFO] Connected to SMPP server
+2024-07-12T07:52:02.982Z [INFO] SMPP session closed
+2024-07-15T02:16:20.574Z [INFO] Server is running on port 3004
+2024-07-15T02:16:20.593Z [INFO] Connected to MongoDBssssss
+2024-07-15T03:02:30.081Z [INFO] Server is running on port 3004
+2024-07-15T03:02:30.095Z [INFO] Connected to MongoDBssssss
+2024-07-15T03:37:47.348Z [INFO] Server is running on port 3004
+2024-07-15T03:37:47.362Z [INFO] Connected to MongoDBssssss
+2024-07-15T03:38:15.753Z [INFO] Connected to SMPP server
+2024-07-15T03:38:15.771Z [INFO] Message successfully sent
+2024-07-15T03:39:48.057Z [INFO] Server is running on port 3004
+2024-07-15T03:39:48.071Z [INFO] Connected to MongoDBssssss
+2024-07-15T03:39:53.180Z [INFO] Connected to SMPP server
+2024-07-15T03:39:53.185Z [INFO] Successfully bound to the SMPP server
+2024-07-15T03:40:11.116Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T03:43:53.576Z [INFO] Server is running on port 3004
+2024-07-15T03:43:53.592Z [INFO] Connected to MongoDBssssss
+2024-07-15T03:43:57.786Z [INFO] Connected to SMPP server
+2024-07-15T03:43:57.802Z [INFO] Successfully bound to the SMPP server
+2024-07-15T03:43:59.920Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T03:45:07.154Z [INFO] Server is running on port 3004
+2024-07-15T03:45:07.170Z [INFO] Connected to MongoDBssssss
+2024-07-15T03:45:12.430Z [INFO] Connected to SMPP server
+2024-07-15T03:45:12.439Z [INFO] Successfully bound to the SMPP server
+2024-07-15T03:45:15.503Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T03:48:14.303Z [INFO] Server is running on port 3004
+2024-07-15T03:48:14.317Z [INFO] Connected to MongoDBssssss
+2024-07-15T03:48:18.775Z [INFO] Connected to SMPP server
+2024-07-15T03:48:18.784Z [INFO] Successfully bound to the SMPP server
+2024-07-15T03:48:19.831Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T03:48:51.794Z [INFO] Server is running on port 3004
+2024-07-15T03:48:51.812Z [INFO] Connected to MongoDBssssss
+2024-07-15T03:48:54.463Z [INFO] Connected to SMPP server
+2024-07-15T03:48:54.475Z [INFO] Successfully bound to the SMPP server
+2024-07-15T03:48:55.445Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T03:50:12.881Z [INFO] Server is running on port 3004
+2024-07-15T03:50:12.896Z [INFO] Connected to MongoDBssssss
+2024-07-15T03:50:15.838Z [INFO] Connected to SMPP server
+2024-07-15T03:50:15.846Z [INFO] Successfully bound to the SMPP server
+2024-07-15T03:50:16.226Z [INFO] SMPP session closed
+2024-07-15T03:50:17.042Z [INFO] Connected to SMPP server
+2024-07-15T03:50:17.045Z [INFO] Successfully bound to the SMPP server
+2024-07-15T03:50:18.079Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T03:53:36.595Z [INFO] Server is running on port 3004
+2024-07-15T03:53:36.613Z [INFO] Connected to MongoDBssssss
+2024-07-15T03:53:41.626Z [INFO] Connected to SMPP server
+2024-07-15T03:53:41.634Z [INFO] Successfully bound to the SMPP server
+2024-07-15T03:53:43.976Z [ERROR] Failed to send message: Cannot read properties of undefined (reading 'length')
+2024-07-15T03:54:00.275Z [INFO] Server is running on port 3004
+2024-07-15T03:54:00.291Z [INFO] Connected to MongoDBssssss
+2024-07-15T03:54:02.905Z [INFO] Connected to SMPP server
+2024-07-15T03:54:02.913Z [INFO] Successfully bound to the SMPP server
+2024-07-15T03:54:05.276Z [ERROR] Failed to send message: Cannot read properties of undefined (reading 'length')
+2024-07-15T03:56:36.826Z [INFO] Server is running on port 3004
+2024-07-15T03:56:36.843Z [INFO] Connected to MongoDBssssss
+2024-07-15T03:56:41.378Z [INFO] Connected to SMPP server
+2024-07-15T03:56:41.385Z [INFO] Successfully bound to the SMPP server
+2024-07-15T03:56:43.438Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T03:56:43.466Z [INFO] Message successfully sent
+2024-07-15T03:56:53.010Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T03:56:53.016Z [INFO] Message successfully sent
+2024-07-15T03:57:10.804Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T03:57:10.812Z [INFO] Message successfully sent
+2024-07-15T03:57:24.051Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T03:57:24.057Z [INFO] Message successfully sent
+2024-07-15T03:58:08.702Z [INFO] Segment 1 of 3 sent successfully
+2024-07-15T03:58:08.704Z [INFO] Segment 2 of 3 sent successfully
+2024-07-15T03:58:08.706Z [INFO] Segment 3 of 3 sent successfully
+2024-07-15T03:58:08.714Z [INFO] Message successfully sent
+2024-07-15T03:58:45.620Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T03:58:45.626Z [INFO] Message successfully sent
+2024-07-15T04:01:54.425Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-07-15T04:01:54.426Z [INFO] SMPP session closed
+2024-07-15T04:02:23.959Z [INFO] Connected to SMPP server
+2024-07-15T04:02:23.970Z [INFO] Successfully bound to the SMPP server
+2024-07-15T04:02:50.915Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T04:02:50.921Z [INFO] Message successfully sent
+2024-07-15T04:03:44.487Z [INFO] Server is running on port 3004
+2024-07-15T04:03:44.508Z [INFO] Connected to MongoDBssssss
+2024-07-15T04:03:47.088Z [ERROR] Failed to send message: Cannot read properties of undefined (reading 'submit_sm')
+2024-07-15T04:03:50.892Z [INFO] Connected to SMPP server
+2024-07-15T04:03:50.899Z [INFO] Successfully bound to the SMPP server
+2024-07-15T04:03:52.022Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T04:03:52.029Z [INFO] Message successfully sent
+2024-07-15T04:04:06.522Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-07-15T04:04:06.524Z [INFO] SMPP session closed
+2024-07-15T04:48:06.228Z [INFO] Server is running on port 3004
+2024-07-15T04:48:06.245Z [INFO] Connected to MongoDBssssss
+2024-07-15T04:48:08.710Z [INFO] Connected to SMPP server
+2024-07-15T04:48:08.724Z [INFO] Successfully bound to the SMPP server
+2024-07-15T04:48:10.238Z [INFO] SMPP session closed
+2024-07-15T04:48:20.323Z [INFO] Connected to SMPP server
+2024-07-15T04:48:20.329Z [INFO] Successfully bound to the SMPP server
+2024-07-15T04:48:21.982Z [INFO] SMPP session closed
+2024-07-15T04:48:25.271Z [INFO] Connected to SMPP server
+2024-07-15T04:48:25.276Z [INFO] Successfully bound to the SMPP server
+2024-07-15T04:48:26.144Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T04:48:26.163Z [INFO] Message successfully sent
+2024-07-15T04:48:27.608Z [INFO] SMPP session closed
+2024-07-15T04:48:49.156Z [INFO] Server is running on port 3004
+2024-07-15T04:48:49.171Z [INFO] Connected to MongoDBssssss
+2024-07-15T04:48:50.909Z [INFO] Connected to SMPP server
+2024-07-15T04:48:50.914Z [INFO] Successfully bound to the SMPP server
+2024-07-15T04:48:52.407Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T04:48:52.430Z [INFO] Message successfully sent
+2024-07-15T04:48:53.319Z [INFO] SMPP session closed
+2024-07-15T04:49:18.136Z [INFO] Connected to SMPP server
+2024-07-15T04:49:18.141Z [INFO] Successfully bound to the SMPP server
+2024-07-15T04:49:19.746Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T04:49:19.752Z [INFO] Message successfully sent
+2024-07-15T04:49:20.205Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T04:49:20.208Z [INFO] Message successfully sent
+2024-07-15T04:49:20.644Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T04:49:20.648Z [INFO] Message successfully sent
+2024-07-15T04:49:20.956Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T04:49:20.961Z [INFO] Message successfully sent
+2024-07-15T04:49:26.924Z [INFO] SMPP session closed
+2024-07-15T04:49:35.654Z [INFO] Connected to SMPP server
+2024-07-15T04:49:35.658Z [INFO] Successfully bound to the SMPP server
+2024-07-15T04:49:42.743Z [INFO] Server is running on port 3004
+2024-07-15T04:49:42.757Z [INFO] Connected to MongoDBssssss
+2024-07-15T04:58:36.129Z [INFO] Server is running on port 3004
+2024-07-15T04:58:36.144Z [INFO] Connected to MongoDBssssss
+2024-07-15T04:58:39.726Z [INFO] Connected to SMPP server
+2024-07-15T04:58:39.733Z [INFO] Successfully bound to the SMPP server
+2024-07-15T04:58:41.418Z [INFO] Segment 1 of 1 sent successfully
+2024-07-15T04:58:41.438Z [INFO] Message successfully sent
+2024-07-16T02:43:42.526Z [INFO] Server is running on port 3004
+2024-07-16T02:43:42.540Z [INFO] Connected to MongoDBssssss
+2024-07-16T02:45:13.199Z [INFO] Connected to SMPP server
+2024-07-16T02:45:13.244Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-16T02:45:28.222Z [INFO] Connected to SMPP server
+2024-07-16T02:45:28.269Z [INFO] Successfully bound to the SMPP server
+2024-07-16T02:46:10.497Z [INFO] SMPP session closed
+2024-07-16T02:47:36.415Z [INFO] Connected to SMPP server
+2024-07-16T02:47:36.471Z [ERROR] Failed to bind to SMPP server: 13
+2024-07-16T02:47:36.474Z [INFO] SMPP session closed
+2024-07-16T02:47:41.078Z [INFO] Connected to SMPP server
+2024-07-16T02:47:41.125Z [ERROR] Failed to bind to SMPP server: 13
+2024-07-16T02:47:41.128Z [INFO] SMPP session closed
+2024-07-16T02:48:04.021Z [INFO] Connected to SMPP server
+2024-07-16T02:48:04.067Z [ERROR] Failed to bind to SMPP server: 13
+2024-07-16T02:48:04.069Z [INFO] SMPP session closed
+2024-07-16T02:48:10.150Z [INFO] Connected to SMPP server
+2024-07-16T02:48:10.195Z [INFO] Successfully bound to the SMPP server
+2024-07-16T02:48:24.894Z [INFO] SMPP session closed
+2024-07-16T02:49:04.186Z [INFO] Server is running on port 3004
+2024-07-16T02:49:04.201Z [INFO] Connected to MongoDBssssss
+2024-07-16T02:49:04.424Z [ERROR] Failed to send message: Cannot read properties of undefined (reading 'submit_sm')
+2024-07-16T02:49:28.571Z [INFO] Connected to SMPP server
+2024-07-16T02:49:28.620Z [INFO] Successfully bound to the SMPP server
+2024-07-16T02:49:34.778Z [ERROR] undefined
+2024-07-16T02:49:34.778Z [INFO] SMPP session closed
+2024-07-16T02:50:33.705Z [INFO] Connected to SMPP server
+2024-07-16T02:50:33.715Z [INFO] Successfully bound to the SMPP server
+2024-07-16T02:50:40.128Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T02:50:40.134Z [INFO] Message successfully sent
+2024-07-16T02:50:49.498Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T02:50:49.501Z [INFO] Message successfully sent
+2024-07-16T02:51:08.802Z [ERROR] undefined
+2024-07-16T02:51:08.803Z [INFO] SMPP session closed
+2024-07-16T02:51:32.414Z [INFO] Connected to SMPP server
+2024-07-16T02:51:32.459Z [INFO] Successfully bound to the SMPP server
+2024-07-16T02:51:36.159Z [ERROR] undefined
+2024-07-16T02:51:36.160Z [INFO] SMPP session closed
+2024-07-16T02:54:13.468Z [INFO] Server is running on port 3004
+2024-07-16T02:54:13.485Z [INFO] Connected to MongoDBssssss
+2024-07-16T02:54:18.354Z [INFO] Connected to SMPP server
+2024-07-16T02:54:18.495Z [INFO] Message successfully sent
+2024-07-16T02:54:41.474Z [INFO] Connected to SMPP server
+2024-07-16T02:54:41.651Z [INFO] Message successfully sent
+2024-07-16T02:55:02.467Z [INFO] Connected to SMPP server
+2024-07-16T02:55:02.644Z [INFO] Message successfully sent
+2024-07-16T02:57:37.640Z [INFO] Server is running on port 3004
+2024-07-16T02:57:37.659Z [INFO] Connected to MongoDBssssss
+2024-07-16T02:57:40.393Z [INFO] Connected to SMPP server
+2024-07-16T02:57:40.443Z [INFO] Successfully bound to the SMPP server
+2024-07-16T02:58:05.169Z [INFO] SMPP session closed
+2024-07-16T02:58:25.582Z [INFO] Server is running on port 3004
+2024-07-16T02:58:25.598Z [INFO] Connected to MongoDBssssss
+2024-07-16T02:58:25.672Z [ERROR] Failed to send message: Cannot read properties of undefined (reading 'submit_sm')
+2024-07-16T02:58:32.796Z [INFO] Connected to SMPP server
+2024-07-16T02:58:32.849Z [INFO] Successfully bound to the SMPP server
+2024-07-16T02:58:34.194Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T02:58:34.199Z [INFO] Message successfully sent
+2024-07-16T02:58:41.923Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T02:58:41.929Z [INFO] Message successfully sent
+2024-07-16T02:58:55.220Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T02:58:55.226Z [INFO] Message successfully sent
+2024-07-16T02:59:18.146Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T02:59:18.153Z [INFO] Message successfully sent
+2024-07-16T02:59:27.800Z [INFO] SMPP session closed
+2024-07-16T02:59:50.377Z [INFO] Connected to SMPP server
+2024-07-16T02:59:50.420Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-16T03:00:15.233Z [INFO] Server is running on port 3004
+2024-07-16T03:00:15.248Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:00:18.138Z [INFO] Connected to SMPP server
+2024-07-16T03:00:18.183Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-16T03:00:22.622Z [INFO] Connected to SMPP server
+2024-07-16T03:00:22.669Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:00:24.235Z [INFO] SMPP session closed
+2024-07-16T03:00:47.934Z [INFO] Server is running on port 3004
+2024-07-16T03:00:47.948Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:00:51.411Z [INFO] Connected to SMPP server
+2024-07-16T03:00:51.459Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:00:53.033Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T03:00:53.050Z [INFO] Message successfully sent
+2024-07-16T03:01:02.836Z [INFO] Server is running on port 3004
+2024-07-16T03:01:02.852Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:01:05.458Z [INFO] Connected to SMPP server
+2024-07-16T03:01:05.506Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:01:06.879Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T03:01:06.894Z [INFO] Message successfully sent
+2024-07-16T03:01:24.654Z [INFO] SMPP session closed
+2024-07-16T03:01:26.137Z [INFO] Connected to SMPP server
+2024-07-16T03:01:26.181Z [ERROR] SMPP session error: Error: PDU length was too large (4278190080, maximum is 16384).
+2024-07-16T03:01:31.914Z [INFO] Connected to SMPP server
+2024-07-16T03:01:45.385Z [INFO] Connected to SMPP server
+2024-07-16T03:01:59.284Z [INFO] Connected to SMPP server
+2024-07-16T03:02:14.025Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-07-16T03:02:14.026Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-07-16T03:02:14.028Z [INFO] SMPP session closed
+2024-07-16T03:02:14.028Z [INFO] SMPP session closed
+2024-07-16T03:02:14.030Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-07-16T03:02:14.032Z [INFO] SMPP session closed
+2024-07-16T03:17:12.930Z [INFO] Server is running on port 3004
+2024-07-16T03:17:12.944Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:17:29.056Z [INFO] Connected to SMPP server
+2024-07-16T03:17:29.102Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:19:52.524Z [INFO] Connected to SMPP server
+2024-07-16T03:19:52.573Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:21:06.858Z [INFO] Server is running on port 3004
+2024-07-16T03:21:06.881Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:21:06.946Z [ERROR] Failed to send message: Cannot read properties of undefined (reading 'submit_sm')
+2024-07-16T03:21:06.958Z [ERROR] Failed to send message: Cannot read properties of undefined (reading 'submit_sm')
+2024-07-16T03:21:12.265Z [INFO] Connected to SMPP server
+2024-07-16T03:21:12.313Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:21:14.000Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T03:21:14.007Z [INFO] Message successfully sent
+2024-07-16T03:21:18.780Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T03:21:18.786Z [INFO] Message successfully sent
+2024-07-16T03:21:22.950Z [INFO] SMPP session closed
+2024-07-16T03:28:58.819Z [INFO] Server is running on port 3004
+2024-07-16T03:28:58.832Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:30:13.379Z [INFO] Connected to SMPP server
+2024-07-16T03:30:13.425Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:31:47.494Z [INFO] Server is running on port 3004
+2024-07-16T03:31:47.507Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:31:47.613Z [INFO] Connected to SMPP server
+2024-07-16T03:31:47.664Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:32:04.409Z [INFO] Connected to SMPP server
+2024-07-16T03:32:04.454Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:33:15.880Z [INFO] Connected to SMPP server
+2024-07-16T03:33:15.926Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:33:27.033Z [INFO] SMPP session closed
+2024-07-16T03:33:31.359Z [INFO] Server is running on port 3004
+2024-07-16T03:33:31.374Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:33:31.451Z [ERROR] Failed to send message: Cannot read properties of undefined (reading 'submit_sm')
+2024-07-16T03:33:31.473Z [INFO] Connected to SMPP server
+2024-07-16T03:33:31.519Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:33:37.164Z [INFO] Connected to SMPP server
+2024-07-16T03:33:37.209Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:33:51.182Z [INFO] SMPP session closed
+2024-07-16T03:33:52.603Z [INFO] Connected to SMPP server
+2024-07-16T03:33:52.650Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:34:13.506Z [INFO] SMPP session closed
+2024-07-16T03:34:20.349Z [INFO] Server is running on port 3004
+2024-07-16T03:34:20.364Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:34:22.673Z [ERROR] Failed to connect to SMPP server: Port should be >= 0 and < 65536. Received type string ('').
+2024-07-16T03:34:56.847Z [INFO] Connected to SMPP server
+2024-07-16T03:34:56.896Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:34:58.288Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T03:34:58.305Z [INFO] Message successfully sent
+2024-07-16T03:35:00.742Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T03:35:00.746Z [INFO] Message successfully sent
+2024-07-16T03:35:02.073Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T03:35:02.077Z [INFO] Message successfully sent
+2024-07-16T03:35:14.084Z [INFO] SMPP session closed
+2024-07-16T03:35:23.001Z [INFO] Server is running on port 3004
+2024-07-16T03:35:23.018Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:36:08.578Z [INFO] Connected to SMPP server
+2024-07-16T03:36:08.625Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:37:04.737Z [INFO] Server is running on port 3004
+2024-07-16T03:37:04.752Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:37:13.537Z [INFO] Connected to SMPP server
+2024-07-16T03:37:13.588Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:37:22.754Z [INFO] Segment 1 of 1 sent successfully
+2024-07-16T03:37:22.786Z [INFO] Message successfully sent
+2024-07-16T03:38:29.740Z [INFO] Server is running on port 3004
+2024-07-16T03:38:29.755Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:38:46.279Z [INFO] Server is running on port 3004
+2024-07-16T03:38:46.294Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:39:15.036Z [INFO] Connected to SMPP server
+2024-07-16T03:39:15.086Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:41:19.090Z [INFO] Server is running on port 3004
+2024-07-16T03:41:19.113Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:42:04.994Z [INFO] Server is running on port 3004
+2024-07-16T03:42:05.010Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:42:08.024Z [INFO] Connected to SMPP server
+2024-07-16T03:42:08.072Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:42:47.989Z [INFO] Server is running on port 3004
+2024-07-16T03:42:48.004Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:42:50.524Z [INFO] Connected to SMPP server
+2024-07-16T03:42:50.572Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:43:40.499Z [INFO] Server is running on port 3004
+2024-07-16T03:43:40.520Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:43:40.594Z [INFO] Connected to SMPP server
+2024-07-16T03:43:40.642Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:44:16.589Z [INFO] Server is running on port 3004
+2024-07-16T03:44:16.606Z [INFO] Connected to MongoDBssssss
+2024-07-16T03:44:18.929Z [INFO] Connected to SMPP server
+2024-07-16T03:44:18.976Z [INFO] Successfully bound to the SMPP server
+2024-07-16T03:44:47.842Z [INFO] SMPP session closed
+2024-07-16T04:35:58.945Z [INFO] Server is running on port 3004
+2024-07-16T04:35:58.962Z [INFO] Connected to MongoDBssssss
+2024-07-16T04:36:08.236Z [ERROR] SMPP session error: Error: connect ECONNREFUSED 192.168.3.206:2776
+2024-07-16T04:36:08.243Z [INFO] SMPP session closed
+2024-07-16T04:36:20.468Z [INFO] Connected to SMPP server
+2024-07-16T04:36:20.518Z [INFO] Successfully bound to the SMPP server
+2024-07-16T04:36:56.770Z [INFO] Connected to SMPP server
+2024-07-16T04:36:56.817Z [INFO] Successfully bound to the SMPP server
+2024-07-16T04:37:24.926Z [INFO] Connected to SMPP server
+2024-07-16T04:37:24.973Z [INFO] Successfully bound to the SMPP server
+2024-07-16T04:38:19.350Z [INFO] Connected to SMPP server
+2024-07-16T04:38:19.396Z [INFO] Successfully bound to the SMPP server
+2024-07-16T04:40:12.691Z [INFO] Connected to SMPP server
+2024-07-16T04:40:12.737Z [INFO] Successfully bound to the SMPP server
+2024-07-16T04:41:35.847Z [INFO] Connected to SMPP server
+2024-07-16T04:41:35.892Z [INFO] Successfully bound to the SMPP server
+2024-07-16T04:45:10.468Z [INFO] SMPP session closed
+2024-07-16T04:45:10.470Z [INFO] SMPP session closed
+2024-07-16T04:45:10.470Z [INFO] SMPP session closed
+2024-07-16T04:45:10.471Z [INFO] SMPP session closed
+2024-07-16T04:45:15.630Z [INFO] SMPP session closed
+2024-07-16T04:45:15.631Z [INFO] SMPP session closed
+2024-07-16T04:45:36.660Z [INFO] Connected to SMPP server
+2024-07-16T04:45:36.705Z [INFO] Successfully bound to the SMPP server
+2024-07-16T04:48:08.064Z [INFO] SMPP session closed
+2024-07-16T06:29:59.581Z [INFO] Server is running on port 3004
+2024-07-16T06:29:59.600Z [INFO] Connected to MongoDBssssss
+2024-07-16T06:30:35.522Z [INFO] Connected to SMPP server
+2024-07-16T06:30:35.569Z [INFO] Successfully bound to the SMPP server
+2024-07-16T06:30:37.664Z [INFO] SMPP session closed
+2024-07-16T06:31:10.235Z [INFO] Connected to SMPP server
+2024-07-16T06:31:10.281Z [INFO] Successfully bound to the SMPP server
+2024-07-16T06:31:14.735Z [INFO] SMPP session closed
+2024-07-16T06:31:25.992Z [INFO] Connected to SMPP server
+2024-07-16T06:31:26.038Z [INFO] Successfully bound to the SMPP server
+2024-07-16T06:31:30.456Z [INFO] SMPP session closed
+2024-07-16T06:32:19.682Z [INFO] Connected to SMPP server
+2024-07-16T06:32:19.728Z [INFO] Successfully bound to the SMPP server
+2024-07-16T06:32:21.951Z [INFO] SMPP session closed
+2024-07-16T06:33:11.890Z [INFO] Connected to SMPP server
+2024-07-16T06:33:11.934Z [INFO] Successfully bound to the SMPP server
+2024-07-16T06:33:14.111Z [INFO] SMPP session closed
+2024-07-17T02:43:05.377Z [INFO] Server is running on port 3004
+2024-07-17T02:43:05.393Z [INFO] Connected to MongoDBssssss
+2024-07-18T02:32:33.883Z [INFO] Server is running on port 3004
+2024-07-18T02:32:33.905Z [INFO] Connected to MongoDBssssss
+2024-07-18T03:20:12.445Z [INFO] Connected to SMPP server
+2024-07-18T03:20:12.454Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:20:18.691Z [INFO] SMPP session closed
+2024-07-18T03:22:58.433Z [INFO] Server is running on port 3004
+2024-07-18T03:22:58.448Z [INFO] Connected to MongoDBssssss
+2024-07-18T03:23:06.515Z [INFO] Connected to SMPP server
+2024-07-18T03:23:06.524Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:23:12.754Z [INFO] SMPP session closed
+2024-07-18T03:28:41.801Z [INFO] Server is running on port 3004
+2024-07-18T03:28:41.815Z [INFO] Connected to MongoDBssssss
+2024-07-18T03:28:58.522Z [INFO] Connected to SMPP server
+2024-07-18T03:28:58.527Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:29:04.693Z [INFO] SMPP session closed
+2024-07-18T03:30:44.303Z [INFO] Server is running on port 3004
+2024-07-18T03:30:44.317Z [INFO] Connected to MongoDBssssss
+2024-07-18T03:30:47.674Z [INFO] Connected to SMPP server
+2024-07-18T03:30:47.680Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:30:53.886Z [INFO] SMPP session closed
+2024-07-18T03:31:54.893Z [INFO] Server is running on port 3004
+2024-07-18T03:31:54.907Z [INFO] Connected to MongoDBssssss
+2024-07-18T03:31:56.905Z [INFO] Connected to SMPP server
+2024-07-18T03:31:56.910Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:32:03.134Z [INFO] SMPP session closed
+2024-07-18T03:32:34.943Z [INFO] Server is running on port 3004
+2024-07-18T03:32:34.960Z [INFO] Connected to MongoDBssssss
+2024-07-18T03:32:37.223Z [INFO] Connected to SMPP server
+2024-07-18T03:32:37.228Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:32:43.513Z [INFO] SMPP session closed
+2024-07-18T03:36:02.006Z [INFO] Server is running on port 3004
+2024-07-18T03:36:02.020Z [INFO] Connected to MongoDBssssss
+2024-07-18T03:36:06.275Z [INFO] Connected to SMPP server
+2024-07-18T03:36:06.281Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:36:12.458Z [INFO] SMPP session closed
+2024-07-18T03:36:35.233Z [INFO] Connected to SMPP server
+2024-07-18T03:36:35.237Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:36:50.624Z [INFO] SMPP session closed
+2024-07-18T03:37:24.117Z [INFO] Connected to SMPP server
+2024-07-18T03:37:24.120Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:37:36.970Z [INFO] SMPP session closed
+2024-07-18T03:38:01.763Z [INFO] Connected to SMPP server
+2024-07-18T03:38:01.767Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:38:20.660Z [INFO] SMPP session closed
+2024-07-18T03:40:02.360Z [INFO] Server is running on port 3004
+2024-07-18T03:40:02.376Z [INFO] Connected to MongoDBssssss
+2024-07-18T03:40:07.440Z [INFO] Connected to SMPP server
+2024-07-18T03:40:07.444Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:40:21.524Z [INFO] SMPP session closed
+2024-07-18T03:41:01.681Z [INFO] Server is running on port 3004
+2024-07-18T03:41:01.695Z [INFO] Connected to MongoDBssssss
+2024-07-18T03:41:03.468Z [INFO] Connected to SMPP server
+2024-07-18T03:41:03.475Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:41:20.971Z [INFO] SMPP session closed
+2024-07-18T03:47:20.288Z [INFO] Server is running on port 3004
+2024-07-18T03:47:20.303Z [INFO] Connected to MongoDBssssss
+2024-07-18T03:47:23.853Z [INFO] Connected to SMPP server
+2024-07-18T03:47:23.859Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:47:39.470Z [INFO] SMPP session closed
+2024-07-18T03:48:04.648Z [INFO] Server is running on port 3004
+2024-07-18T03:48:04.665Z [INFO] Connected to MongoDBssssss
+2024-07-18T03:48:16.818Z [INFO] Connected to SMPP server
+2024-07-18T03:48:16.823Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:51:16.159Z [INFO] Server is running on port 3004
+2024-07-18T03:51:16.173Z [INFO] Connected to MongoDBssssss
+2024-07-18T03:51:25.383Z [INFO] Connected to SMPP server
+2024-07-18T03:51:25.389Z [INFO] Successfully bound to the SMPP server
+2024-07-18T03:52:02.602Z [INFO] SMPP session closed
+2024-07-18T03:59:45.642Z [INFO] Connected to SMPP server
+2024-07-18T03:59:45.647Z [INFO] Successfully bound to the SMPP server
+2024-07-18T04:02:16.943Z [INFO] SMPP session closed
+2024-07-18T04:02:27.446Z [INFO] Connected to SMPP server
+2024-07-18T04:02:27.449Z [INFO] Successfully bound to the SMPP server
+2024-07-18T04:02:42.315Z [INFO] SMPP session closed
+2024-07-18T04:04:55.115Z [INFO] Connected to SMPP server
+2024-07-18T04:04:55.118Z [INFO] Successfully bound to the SMPP server
+2024-07-18T04:05:11.196Z [INFO] SMPP session closed
+2024-07-18T04:12:47.652Z [INFO] Connected to SMPP server
+2024-07-18T04:12:47.655Z [INFO] Successfully bound to the SMPP server
+2024-07-18T04:12:53.937Z [INFO] SMPP session closed
+2024-07-18T04:13:08.584Z [INFO] Connected to SMPP server
+2024-07-18T04:13:08.587Z [INFO] Successfully bound to the SMPP server
+2024-07-18T04:13:13.282Z [INFO] SMPP session closed
+2024-07-19T02:48:38.697Z [INFO] Server is running on port 3004
+2024-07-19T02:48:38.716Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:01:43.368Z [INFO] Connected to SMPP server
+2024-07-19T03:01:43.378Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:01:49.680Z [INFO] SMPP session closed
+2024-07-19T03:02:36.773Z [INFO] Connected to SMPP server
+2024-07-19T03:02:36.780Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:02:36.848Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-07-19T03:02:36.850Z [INFO] SMPP session closed
+2024-07-19T03:02:56.293Z [INFO] Connected to SMPP server
+2024-07-19T03:02:56.301Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:03:02.538Z [INFO] SMPP session closed
+2024-07-19T03:03:57.522Z [INFO] Connected to SMPP server
+2024-07-19T03:03:57.527Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:04:00.686Z [INFO] SMPP session closed
+2024-07-19T03:04:26.971Z [INFO] Connected to SMPP server
+2024-07-19T03:04:26.975Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:04:28.544Z [INFO] SMPP session closed
+2024-07-19T03:04:38.699Z [INFO] Connected to SMPP server
+2024-07-19T03:04:38.701Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:04:40.283Z [INFO] SMPP session closed
+2024-07-19T03:05:47.792Z [INFO] Connected to SMPP server
+2024-07-19T03:05:47.796Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:05:49.375Z [INFO] SMPP session closed
+2024-07-19T03:06:10.776Z [INFO] Connected to SMPP server
+2024-07-19T03:06:10.780Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:06:11.117Z [INFO] SMPP session closed
+2024-07-19T03:13:17.075Z [INFO] Server is running on port 3004
+2024-07-19T03:13:17.089Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:13:22.559Z [INFO] Connected to SMPP server
+2024-07-19T03:13:22.568Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:13:28.853Z [INFO] SMPP session closed
+2024-07-19T03:14:13.687Z [INFO] Connected to SMPP server
+2024-07-19T03:14:13.693Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:14:16.862Z [INFO] SMPP session closed
+2024-07-19T03:15:46.691Z [INFO] Server is running on port 3004
+2024-07-19T03:15:46.705Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:15:50.735Z [INFO] Connected to SMPP server
+2024-07-19T03:15:50.742Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:15:53.886Z [INFO] SMPP session closed
+2024-07-19T03:18:13.322Z [INFO] Connected to SMPP server
+2024-07-19T03:18:13.327Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:18:14.915Z [INFO] SMPP session closed
+2024-07-19T03:18:21.832Z [INFO] Connected to SMPP server
+2024-07-19T03:18:21.835Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:18:24.958Z [INFO] SMPP session closed
+2024-07-19T03:19:55.292Z [INFO] Server is running on port 3004
+2024-07-19T03:19:55.309Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:19:57.629Z [INFO] Connected to SMPP server
+2024-07-19T03:19:57.634Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:20:00.781Z [INFO] SMPP session closed
+2024-07-19T03:20:31.500Z [INFO] Connected to SMPP server
+2024-07-19T03:20:31.504Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:20:34.638Z [INFO] SMPP session closed
+2024-07-19T03:20:49.145Z [INFO] Server is running on port 3004
+2024-07-19T03:20:49.163Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:20:51.435Z [INFO] Connected to SMPP server
+2024-07-19T03:20:51.441Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:20:54.571Z [INFO] SMPP session closed
+2024-07-19T03:21:47.787Z [INFO] Server is running on port 3004
+2024-07-19T03:21:47.803Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:21:52.984Z [INFO] Connected to SMPP server
+2024-07-19T03:21:52.993Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:22:08.076Z [INFO] Server is running on port 3004
+2024-07-19T03:22:08.093Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:22:09.425Z [INFO] Connected to SMPP server
+2024-07-19T03:22:09.431Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:22:12.582Z [INFO] SMPP session closed
+2024-07-19T03:26:38.583Z [INFO] Connected to SMPP server
+2024-07-19T03:26:38.596Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:26:42.758Z [INFO] SMPP session closed
+2024-07-19T03:27:03.925Z [INFO] Connected to SMPP server
+2024-07-19T03:27:03.935Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:27:11.085Z [INFO] SMPP session closed
+2024-07-19T03:27:39.088Z [INFO] Server is running on port 3004
+2024-07-19T03:27:39.113Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:27:41.182Z [INFO] Connected to SMPP server
+2024-07-19T03:27:41.192Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:27:44.321Z [INFO] SMPP session closed
+2024-07-19T03:28:00.206Z [INFO] Server is running on port 3004
+2024-07-19T03:28:00.225Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:29:07.780Z [INFO] Connected to SMPP server
+2024-07-19T03:29:07.785Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:29:14.943Z [INFO] SMPP session closed
+2024-07-19T03:29:29.440Z [INFO] Connected to SMPP server
+2024-07-19T03:29:29.448Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:29:32.440Z [INFO] SMPP session closed
+2024-07-19T03:29:38.112Z [INFO] Connected to SMPP server
+2024-07-19T03:29:38.117Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:29:41.237Z [INFO] SMPP session closed
+2024-07-19T03:29:54.115Z [INFO] Connected to SMPP server
+2024-07-19T03:29:54.118Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:29:54.741Z [INFO] SMPP session closed
+2024-07-19T03:36:13.241Z [INFO] Server is running on port 3004
+2024-07-19T03:36:13.256Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:36:18.762Z [INFO] Connected to SMPP server
+2024-07-19T03:36:18.774Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:43:42.728Z [INFO] Server is running on port 3004
+2024-07-19T03:43:42.745Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:43:48.217Z [INFO] Connected to SMPP server
+2024-07-19T03:43:48.225Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:43:51.055Z [INFO] SMPP session closed
+2024-07-19T03:44:56.117Z [INFO] Server is running on port 3004
+2024-07-19T03:44:56.139Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:44:58.060Z [INFO] Connected to SMPP server
+2024-07-19T03:44:58.064Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:45:01.187Z [INFO] SMPP session closed
+2024-07-19T03:45:37.497Z [INFO] Server is running on port 3004
+2024-07-19T03:45:37.512Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:45:40.242Z [INFO] Connected to SMPP server
+2024-07-19T03:45:40.256Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:45:43.387Z [INFO] SMPP session closed
+2024-07-19T03:46:01.828Z [INFO] Server is running on port 3004
+2024-07-19T03:46:01.844Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:46:04.075Z [INFO] Connected to SMPP server
+2024-07-19T03:46:04.080Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:46:07.162Z [INFO] SMPP session closed
+2024-07-19T03:47:17.413Z [INFO] Server is running on port 3004
+2024-07-19T03:47:17.426Z [INFO] Connected to MongoDBssssss
+2024-07-19T03:47:19.698Z [INFO] Connected to SMPP server
+2024-07-19T03:47:19.705Z [INFO] Successfully bound to the SMPP server
+2024-07-19T03:47:22.780Z [INFO] SMPP session closed
+2024-07-19T04:30:15.417Z [INFO] Server is running on port 3004
+2024-07-19T04:30:15.431Z [INFO] Connected to MongoDBssssss
+2024-07-19T04:30:31.141Z [INFO] Connected to SMPP server
+2024-07-19T04:30:31.148Z [INFO] Successfully bound to the SMPP server
+2024-07-19T04:30:38.098Z [ERROR] Failed to send message: Invalid input
+2024-07-19T05:02:20.914Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-07-19T05:02:20.915Z [INFO] SMPP session closed
+2024-07-19T09:13:24.428Z [INFO] Server is running on port 3004
+2024-07-19T09:13:24.442Z [INFO] Connected to MongoDBssssss
+2024-07-19T09:13:30.480Z [INFO] Connected to SMPP server
+2024-07-19T09:13:30.492Z [INFO] Successfully bound to the SMPP server
+2024-07-19T09:14:21.409Z [INFO] Server is running on port 3004
+2024-07-19T09:14:21.424Z [INFO] Connected to MongoDBssssss
+2024-07-19T09:14:23.334Z [INFO] Connected to SMPP server
+2024-07-19T09:14:23.340Z [INFO] Successfully bound to the SMPP server
+2024-07-19T09:14:29.418Z [INFO] SMPP session closed
+2024-07-19T09:14:34.843Z [INFO] Connected to SMPP server
+2024-07-19T09:14:34.847Z [INFO] Successfully bound to the SMPP server
+2024-07-19T09:14:40.921Z [INFO] SMPP session closed
+2024-07-19T09:16:28.017Z [INFO] Server is running on port 3004
+2024-07-19T09:16:28.032Z [INFO] Connected to MongoDBssssss
+2024-07-19T09:16:29.543Z [INFO] Connected to SMPP server
+2024-07-19T09:16:29.548Z [INFO] Successfully bound to the SMPP server
+2024-07-19T09:16:35.609Z [INFO] SMPP session closed
+2024-07-19T09:16:53.009Z [INFO] Connected to SMPP server
+2024-07-19T09:16:53.012Z [INFO] Successfully bound to the SMPP server
+2024-07-19T09:18:40.790Z [INFO] Server is running on port 3004
+2024-07-19T09:18:40.806Z [INFO] Connected to MongoDBssssss
+2024-07-19T09:18:42.570Z [INFO] Connected to SMPP server
+2024-07-19T09:18:42.573Z [INFO] Successfully bound to the SMPP server
+2024-07-19T09:20:28.958Z [INFO] Server is running on port 3004
+2024-07-19T09:20:28.974Z [INFO] Connected to MongoDBssssss
+2024-07-19T09:20:33.038Z [INFO] Connected to SMPP server
+2024-07-19T09:20:33.043Z [INFO] Successfully bound to the SMPP server
+2024-07-19T09:21:44.363Z [INFO] Server is running on port 3004
+2024-07-19T09:21:44.378Z [INFO] Connected to MongoDBssssss
+2024-07-19T09:21:47.585Z [INFO] Connected to SMPP server
+2024-07-19T09:21:47.591Z [INFO] Successfully bound to the SMPP server
+2024-07-19T09:21:50.629Z [INFO] SMPP session closed
+2024-07-19T09:24:05.976Z [INFO] Connected to SMPP server
+2024-07-19T09:24:05.980Z [INFO] Successfully bound to the SMPP server
+2024-07-19T09:24:12.020Z [INFO] SMPP session closed
+2024-07-19T09:24:31.103Z [INFO] Connected to SMPP server
+2024-07-19T09:24:31.105Z [INFO] Successfully bound to the SMPP server
+2024-07-19T09:25:09.540Z [INFO] SMPP session closed

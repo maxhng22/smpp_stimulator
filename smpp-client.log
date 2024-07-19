@@ -127,3 +127,4 @@
 2024-06-07T02:09:41.058Z [INFO] Successfully bound to the SMPP server
 2024-06-07T02:09:41.063Z [INFO] Message successfully sent to 5678: HELLO, WORLD! (Status: Sent)
 2024-06-07T02:18:09.310Z [ERROR] SMPP session error: Error: read ECONNRESET
+2024-06-24T03:00:11.238Z [ERROR] SMPP session error: AggregateError

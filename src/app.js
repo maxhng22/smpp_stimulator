@@ -57,17 +57,17 @@ app.post("/api/register", userController.register);
 app.post("/api/login", userController.login);
 app.post("/api/saveconfig", authenticate, configController.saveConfig);
 app.get("/api/getconfig", authenticate, configController.getConfig);
-app.get("/api/getlog", logController.getAllLogs);
+app.get("/api/getlog",authenticate, logController.getAllLogs);
 
 
 
-app.post("/api/send-message", messageController.sendMessage);
-app.post("/api/connectsmpp", messageController.connectSMPP);
-app.post("/api/disconnectsmpp", messageController.disconnectSMPP);
-app.post("/api/txonlysmpp", messageController.txonlysmpp);
-app.post("/api/rxonlysmpp", messageController.rxonlysmpp);
-app.post("/api/loadtest", messageController.loadTestSMPP);
-app.post("/api/abortloadtest", messageController.abortLoadTestSMPP);
+app.post("/api/send-message",authenticate, messageController.sendMessage);
+app.post("/api/connectsmpp",authenticate, messageController.connectSMPP);
+app.post("/api/disconnectsmpp",authenticate, messageController.disconnectSMPP);
+app.post("/api/txonlysmpp",authenticate, messageController.txonlysmpp);
+app.post("/api/rxonlysmpp",authenticate, messageController.rxonlysmpp);
+app.post("/api/loadtest",authenticate, messageController.loadTestSMPP);
+app.post("/api/abortloadtest",authenticate, messageController.abortLoadTestSMPP);
 
 
 
