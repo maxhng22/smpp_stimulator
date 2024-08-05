@@ -27,6 +27,26 @@ exports.connect = async (host, port, systemId, password, systemType, version, mo
 
                 logger.info('Connected to SMPP server');
 
+                // smppClient.submit_sm({
+                //     source_addr: "from",
+                //     destination_addr: "to",
+                //     short_message: "shortMessage",
+                //     // data_coding: encoding,
+                //     // esm_class: 0x40, // Indicate that the message is part of a concatenated sequence
+                //     // sequence_number: index + 1 // Set the sequence number for each segment
+                // }, (pdu) => {
+                //     console.log(pdu)
+                //     if (pdu.command_status === 0) {
+                //         console.log("success")
+                //         // logger.info(`Segment ${index + 1} of ${shortMessages.length} sent successfully`);
+                //         // resolveSegment(true);
+                //     } else {
+                //         console.log("failed")
+                //         // logger.error(`Failed to send segment ${index + 1} of ${shortMessages.length}:`, pdu.command_status);/
+                //         // rejectSegment(new Error(`Failed to send segment ${index + 1}`));
+                //     }
+                // });
+
                 // smppClient.bind_transceiver({
                 //     system_id: systemId,
                 //     password: password||"",
@@ -163,9 +183,9 @@ exports.sendSms = (from, to, message) => {
                     source_addr: from,
                     destination_addr: to,
                     short_message: shortMessage,
-                    // data_coding: encoding,
-                    // esm_class: 0x40, // Indicate that the message is part of a concatenated sequence
-                    // sequence_number: index + 1 // Set the sequence number for each segment
+                    data_coding: encoding,
+                    esm_class: 0x40, // Indicate that the message is part of a concatenated sequence
+                    sequence_number: index + 1 // Set the sequence number for each segment
                 }, (pdu) => {
                     if (pdu.command_status === 0) {
                         logger.info(`Segment ${index + 1} of ${shortMessages.length} sent successfully`);
@@ -349,10 +369,12 @@ exports.loadTest2 = async (host, port, systemId, password, systemType, version, 
         });
 
         let totalLatency = 0;
+        let totalFailed=0;
+        let returnedSm=0;
         let successfulSubmissions = 0;
         const latencyArray = [];
         const messagesPerSecondObject = {};
-        let messagesSentInCurrentSecond = 0;
+        let delayTime = 0;
         let startTimeOfCurrentSecond = performance.now();
 
         smppClient.on('connect', () => {
@@ -380,9 +402,9 @@ exports.loadTest2 = async (host, port, systemId, password, systemType, version, 
             const sourceAddr = pdu.source_addr;
             const destinationAddr = pdu.destination_addr;
 
-            console.log('Received message:', message);
-            console.log('From:', sourceAddr);
-            console.log('To:', destinationAddr);
+            // console.log('Received message:', message);
+            // console.log('From:', sourceAddr);
+            // console.log('To:', destinationAddr);
 
             // Acknowledge the delivery
             smppClient.send(pdu.response());
@@ -404,29 +426,35 @@ exports.loadTest2 = async (host, port, systemId, password, systemType, version, 
         // let messagesPerSecondArray2 = {}
         function startSendingMessages() {
             let messagesSent = 0;
-            let startTime2 = null;
+            let startTime = null;
             const intervalId = setInterval(() => {
 
+
+                if (!startTime) { // Check if start time is not set yet
+                    startTime = performance.now();
+                }
+
                 if (messagesSent >= numMessages) {
-                    clearInterval(intervalId);
-                    smppClient.unbind();
-                    const endTime = performance.now();
-                    const totalTime = endTime - startTime2
-                    // console.log(totalTime)
-                    let messagesPerSecondArray = [];
-                    for (let j in messagesPerSecondObject) {
-                        messagesPerSecondArray.push(messagesPerSecondObject[j]);
+                    if (returnedSm >= numMessages || delayTime > 8) {
+                        clearInterval(intervalId);
+                        smppClient.unbind();
+                        const endTime = performance.now();
+                        const totalTime = endTime - startTime
+                        // console.log(totalTime)
+                        let messagesPerSecondArray = [];
+                        for (let j in messagesPerSecondObject) {
+                            messagesPerSecondArray.push(messagesPerSecondObject[j]);
+                        }
+
+                        resolve({ totalLatency, successfulSubmissions, latencyArray, messagesPerSecondArray, totalTime,totalFailed });
+                        return;
+                    } else {
+                        delayTime++
                     }
 
-                    resolve({ totalLatency, successfulSubmissions, latencyArray, messagesPerSecondArray, totalTime });
-                    return;
                 }
 
-                if (!startTime2) { // Check if start time is not set yet
-                    startTime2 = performance.now();
-                }
-
-                let startTime = performance.now();
+                // let startTime = performance.now();
                 // const currentSecond2 = Math.floor((performance.now() - startTimeOfCurrentSecond) / 1000);
                 // if (messagesPerSecondArray2[currentSecond2] !== undefined) {
                 //     messagesPerSecondArray2[currentSecond2]++;
@@ -434,50 +462,80 @@ exports.loadTest2 = async (host, port, systemId, password, systemType, version, 
                 //     messagesPerSecondArray2[currentSecond2] = 1;
                 // }
                 // messagesSent++;
-                console.log(messagesSent)
-                const promises = [];
-                for (let i = 1; i <= tps; i++) {
-                    promises.push(createSubmitSmPromise(i,destination,source,message,smppClient).then(() => {
 
-                        // messagesSent++
-                    })
-                    .catch((error) => {
-                        console.error(error);
-                        // messagesSent++
-                    }));
+                // messagesSent+=parseInt(tps,10)
+
+
+                // console.log(messagesSent)
+                if (messagesSent <= numMessages) {
+                    let startTime2 = performance.now();
+
+
+                    let numberOfmessage = parseInt(tps, 10)
+                    let exceeded = messagesSent + parseInt(tps, 10)
+                    if (exceeded > numMessages) {
+                        numberOfmessage = numMessages - messagesSent
+                        messagesSent += numMessages - messagesSent
+                    } else {
+                        messagesSent += parseInt(tps, 10)
+                    }
+
+                    const promises = [];
+                    for (let i = 1; i <= numberOfmessage; i++) {
+                        promises.push(createSubmitSmPromise(i, destination, source, message, smppClient).then(() => {
+                            console.log("returned")
+
+                            const currentSecond = Math.floor((performance.now() - startTimeOfCurrentSecond) / 1000);
+                            if (messagesPerSecondObject[currentSecond] !== undefined) {
+                                messagesPerSecondObject[currentSecond]++;
+                            } else {
+                                messagesPerSecondObject[currentSecond] = 1;
+                            }
+                            successfulSubmissions++
+                            returnedSm++
+                            // messagesSent++
+                        }).catch((error) => {
+                                // successfulSubmissions++
+                                returnedSm++
+                                totalFailed++
+                                console.error(error);
+                                // messagesSent++
+                            }));
+                    }
+
+                    // Send all messages concurrently
+                    Promise.all(promises)
+                        .then(() => {
+                            const endTime = performance.now();
+                            const latency = endTime - startTime2;
+                            totalLatency += latency;
+                            latencyArray.push(latency);
+                            console.log('All messages sent successfully');
+
+                            // const currentSecond = Math.floor((performance.now() - startTimeOfCurrentSecond) / 1000);
+                            // if (messagesPerSecondObject[currentSecond] !== undefined) {
+                            //     messagesPerSecondObject[currentSecond]=+tps;
+                            // } else {
+                            //     messagesPerSecondObject[currentSecond] = tps;
+                            // }
+                            // messagesSentInCurrentSecond++;
+                            // session.unbind(); // Unbind from the SMPP server
+                            // successfulSubmissions += parseInt(tps, 10)
+                            // messagesSent+=parseInt(tps,10)
+                        })
+                        .catch((error) => {
+                            console.error('Some messages failed', error);
+                            // messagesSent+=parseInt(tps,10)
+                            // session.unbind(); // Unbind from the SMPP server
+                        });
+
                 }
-        
-                // Send all messages concurrently
-                Promise.all(promises)
-                    .then(() => {
-                        const endTime = performance.now();
-                        const latency = endTime - startTime;
-                        totalLatency += latency;
-                        latencyArray.push(latency);
-                        // console.log('All messages sent successfully');
-
-                        const currentSecond = Math.floor((performance.now() - startTimeOfCurrentSecond) / 1000);
-                        if (messagesPerSecondObject[currentSecond] !== undefined) {
-                            messagesPerSecondObject[currentSecond]=+tps;
-                        } else {
-                            messagesPerSecondObject[currentSecond] = tps;
-                        }
-                        // messagesSentInCurrentSecond++;
-                        // session.unbind(); // Unbind from the SMPP server
-                        successfulSubmissions+=parseInt(tps,10)
-                        messagesSent+=parseInt(tps,10)
-                    })
-                    .catch((error) => {
-                        console.error('Some messages failed', error);
-                        // session.unbind(); // Unbind from the SMPP server
-                    });
-    
             }, 1000);
         }
     });
 };
 
-const createSubmitSmPromise = (count,dest,src,message,session) => {
+const createSubmitSmPromise = (count, dest, src, message, session) => {
     return new Promise((resolve, reject) => {
         session.submit_sm({
             destination_addr: dest,

@@ -69,16 +69,26 @@ async function startSmppServer() {
 
         // Handle submit_sm (TX)
         session.on('submit_sm', (pdu) => {
-            logger.info(`Received submit_sm: From ${pdu.source_addr} To ${pdu.destination_addr} Message ${pdu.short_message.message}`);
-          
-            // Introduce delay using setTimeout
-            // setTimeout(() => {
-              // Send response after 1 second delay
-              session.send(pdu.response({
-                message_id: '1'
-              }));
-            // }, 4000); // Delay of 1 second in milliseconds
-          });
+            const message = pdu.short_message.message;
+            logger.info(`Received submit_sm: From ${pdu.source_addr} To ${pdu.destination_addr} Message ${message}`);
+        
+            const sendResponse = (status) => {
+                session.send(pdu.response({
+                    command_status: status,
+                    message_id: '1'
+                }));
+            };
+        
+            if (message.includes('9')) {
+                // Simulate failure if the message contains '9'
+                logger.info('Simulating failure for message containing 9');
+                setTimeout(() => sendResponse(1), 2000); // Delay of 2 seconds and then fail
+            } else if(message.includes('8')){
+                setTimeout(() => sendResponse(0), 5000); // Success
+            }else{
+                sendResponse(0);
+            }
+        });
 
         // Handle deliver_sm (RX) - Example for receiving
         session.on('deliver_sm', (pdu) => {
